@@ -1,0 +1,2598 @@
+{
+ "Rock Around the Clock — Bill Haley & His Comets": {
+  "id": 1440751392,
+  "released": "1948",
+  "found": "Rock Around the Clock — Bill Haley and His Comets"
+ },
+ "Tutti Frutti — Little Richard": {
+  "id": 1440936639,
+  "released": "1955",
+  "found": "Tutti Frutti — Little Richard"
+ },
+ "Hound Dog — Elvis Presley": {
+  "id": 418556876,
+  "released": "1956",
+  "found": "Hound Dog — Elvis Presley"
+ },
+ "Jailhouse Rock — Elvis Presley": {
+  "id": 1106775198,
+  "released": "1957",
+  "found": "Jailhouse Rock — Elvis Presley"
+ },
+ "That'll Be the Day — The Crickets": {
+  "id": 1469585905,
+  "released": "1957",
+  "found": "That'll Be the Day — Buddy Holly & The Crickets"
+ },
+ "Great Balls of Fire — Jerry Lee Lewis": {
+  "id": 1890334978,
+  "released": "1957",
+  "found": "Great Balls Of Fire — Jerry Lee Lewis"
+ },
+ "Johnny B. Goode — Chuck Berry": {
+  "id": 1425230917,
+  "released": "1955",
+  "found": "Johnny B. Goode — Chuck Berry"
+ },
+ "La Bamba — Ritchie Valens": {
+  "id": 118142371,
+  "released": "1958",
+  "found": "La Bamba — Ritchie Valens"
+ },
+ "All I Have to Do Is Dream — The Everly Brothers": {
+  "id": 1713792891,
+  "released": "1958",
+  "found": "All I Have To Do Is Dream — The Everly Brothers"
+ },
+ "Mack the Knife — Bobby Darin": {
+  "id": 1179374887,
+  "released": "1959",
+  "found": "Mack the Knife — Bobby Darin"
+ },
+ "The Twist — Chubby Checker": {
+  "id": 1278471746,
+  "released": "1960",
+  "found": "The Twist — Chubby Checker"
+ },
+ "It's Now or Never — Elvis Presley": {
+  "id": 951162996,
+  "released": "1960",
+  "found": "It's Now or Never — Elvis Presley"
+ },
+ "Save the Last Dance for Me — The Drifters": {
+  "id": 340891866,
+  "released": "1960",
+  "found": "Save the Last Dance for Me — The Drifters"
+ },
+ "Stand by Me — Ben E. King": {
+  "id": 738196409,
+  "released": "1960",
+  "found": "Stand By Me — Ben E. King"
+ },
+ "Runaway — Del Shannon": {
+  "id": 1227522179,
+  "released": "1961",
+  "found": "Runaway — Del Shannon"
+ },
+ "Crazy — Patsy Cline": {
+  "id": 1434915161,
+  "released": "1961",
+  "found": "Crazy (feat. The Jordanaires) — Patsy Cline"
+ },
+ "The Lion Sleeps Tonight — The Tokens": {
+  "id": 534533704,
+  "released": "1961",
+  "found": "The Lion Sleeps Tonight — The Tokens"
+ },
+ "Sherry — The Four Seasons": {
+  "id": 870436192,
+  "released": "1961",
+  "found": "Sherry — The Four Seasons"
+ },
+ "The Loco-Motion — Little Eva": {
+  "id": 432437410,
+  "released": "1962",
+  "found": "The Loco Motion — Little Eva"
+ },
+ "I Can't Stop Loving You — Ray Charles": {
+  "id": 369407104,
+  "released": "1962",
+  "found": "I Can't Stop Loving You — Ray Charles"
+ },
+ "Green Onions — Booker T. & the M.G.'s": {
+  "id": 333450108,
+  "released": "1962",
+  "found": "Green Onions — Booker T. & The M.G.'s"
+ },
+ "He's So Fine — The Chiffons": {
+  "id": 1443125516,
+  "released": "1963",
+  "found": "He's So Fine — The Chiffons"
+ },
+ "Be My Baby — The Ronettes": {
+  "id": 382736554,
+  "released": "1963",
+  "found": "Be My Baby — The Ronettes"
+ },
+ "Louie Louie — The Kingsmen": {
+  "id": 121695005,
+  "released": "1963",
+  "found": "Louie Louie — The Kingsmen"
+ },
+ "A Hard Day's Night — The Beatles": {
+  "id": 1441164417,
+  "released": "1964",
+  "found": "A Hard Day's Night — The Beatles"
+ },
+ "The House of the Rising Sun — The Animals": {
+  "id": 1440743961,
+  "released": "1963",
+  "found": "House of the Rising Sun — The Animals"
+ },
+ "Oh, Pretty Woman — Roy Orbison": {
+  "id": 388155861,
+  "released": "1964",
+  "found": "Oh, Pretty Woman — Roy Orbison"
+ },
+ "Baby Love — The Supremes": {
+  "id": 1443150938,
+  "released": "1964",
+  "found": "Baby Love — The Supremes"
+ },
+ "You Really Got Me — The Kinks": {
+  "id": 1436281753,
+  "released": "1964",
+  "found": "You Really Got Me — The Kinks"
+ },
+ "(I Can't Get No) Satisfaction — The Rolling Stones": {
+  "id": 1440743544,
+  "released": "1965",
+  "found": "(I Can't Get No) Satisfaction — The Rolling Stones"
+ },
+ "Help! — The Beatles": {
+  "id": 1441164536,
+  "released": "1965",
+  "found": "Help! — The Beatles"
+ },
+ "Mr. Tambourine Man — The Byrds": {
+  "id": 170274861,
+  "released": "1965",
+  "found": "Mr. Tambourine Man — The Byrds"
+ },
+ "Like a Rolling Stone — Bob Dylan": {
+  "id": 201281527,
+  "released": "1965",
+  "found": "Like a Rolling Stone — Bob Dylan"
+ },
+ "I Got You Babe — Sonny & Cher": {
+  "id": 40288233,
+  "released": "1965",
+  "found": "I Got You Babe — Sonny & Cher"
+ },
+ "Good Vibrations — The Beach Boys": {
+  "id": 716001949,
+  "released": "1966",
+  "found": "Good Vibrations — The Beach Boys"
+ },
+ "I'm a Believer — The Monkees": {
+  "id": 4512481,
+  "released": "1966",
+  "found": "I'm a Believer — The Monkees"
+ },
+ "Monday, Monday — The Mamas & the Papas": {
+  "id": 1877963774,
+  "released": "1966",
+  "found": "Monday, Monday (Mono Version) — The Mamas & The Papas"
+ },
+ "Paint It Black — The Rolling Stones": {
+  "id": 1440745782,
+  "released": "1966",
+  "found": "Paint It, Black — The Rolling Stones"
+ },
+ "When a Man Loves a Woman — Percy Sledge": {
+  "id": 59411932,
+  "released": "1966",
+  "found": "When a Man Loves a Woman — Percy Sledge"
+ },
+ "You Can't Hurry Love — The Supremes": {
+  "id": 1445946473,
+  "released": "1966",
+  "found": "You Can't Hurry Love — The Supremes"
+ },
+ "Respect — Aretha Franklin": {
+  "id": 937107838,
+  "released": "1967",
+  "found": "Respect — Aretha Franklin"
+ },
+ "Light My Fire — The Doors": {
+  "id": 1192962303,
+  "released": "1967",
+  "found": "Light My Fire — The Doors"
+ },
+ "The Letter — The Box Tops": {
+  "id": 1442734427,
+  "released": "1967",
+  "found": "The Letter — The Box Tops"
+ },
+ "Brown Eyed Girl — Van Morrison": {
+  "id": 1838782096,
+  "released": "1967",
+  "found": "Brown Eyed Girl — Van Morrison"
+ },
+ "A Whiter Shade of Pale — Procol Harum": {
+  "id": 1469579797,
+  "released": "1967",
+  "found": "A Whiter Shade of Pale — Procol Harum"
+ },
+ "Happy Together — The Turtles": {
+  "id": 310728859,
+  "released": "1967",
+  "found": "Happy Together — The Turtles"
+ },
+ "Hey Jude — The Beatles": {
+  "id": 1441133277,
+  "released": "1968",
+  "found": "Hey Jude — The Beatles"
+ },
+ "(Sittin' On) The Dock of the Bay — Otis Redding": {
+  "id": 997088846,
+  "released": "1964",
+  "found": "(Sittin' On) The Dock of the Bay — Otis Redding"
+ },
+ "I Heard It Through the Grapevine — Marvin Gaye": {
+  "id": 1443073952,
+  "released": "1967",
+  "found": "I Heard It Through the Grapevine — Marvin Gaye"
+ },
+ "Mrs. Robinson — Simon & Garfunkel": {
+  "id": 203304387,
+  "released": "1968",
+  "found": "Mrs. Robinson — Simon & Garfunkel"
+ },
+ "Born to Be Wild — Steppenwolf": {
+  "id": 1469577917,
+  "released": "1968",
+  "found": "Born To Be Wild — Steppenwolf"
+ },
+ "Sugar, Sugar — The Archies": {
+  "id": 591884093,
+  "released": "1963",
+  "found": "Sugar, Sugar (Original 45 Single) — The Archies"
+ },
+ "Honky Tonk Women — The Rolling Stones": {
+  "id": 1440776034,
+  "released": "1966",
+  "found": "Honky Tonk Women (Mono) — The Rolling Stones"
+ },
+ "Proud Mary — Creedence Clearwater Revival": {
+  "id": 1440955828,
+  "released": "1968",
+  "found": "Proud Mary — Creedence Clearwater Revival"
+ },
+ "In the Year 2525 — Zager & Evans": {
+  "id": 215791651,
+  "released": "2006",
+  "found": "In the Year 2525 — Bobby Christian, Evans, Richard Evans & Zager"
+ },
+ "Come Together — The Beatles": {
+  "id": 1441164430,
+  "released": "1969",
+  "found": "Come Together — The Beatles"
+ },
+ "Bridge over Troubled Water — Simon & Garfunkel": {
+  "id": 324127934,
+  "released": "1970",
+  "found": "Bridge Over Troubled Water — Simon & Garfunkel"
+ },
+ "Let It Be — The Beatles": {
+  "id": 1441164738,
+  "released": "1970",
+  "found": "Let It Be — The Beatles"
+ },
+ "ABC — The Jackson 5": {
+  "id": 1440912109,
+  "released": "1970",
+  "found": "ABC — Jackson 5"
+ },
+ "War — Edwin Starr": {
+  "id": 1444049092,
+  "released": "1970",
+  "found": "War — Edwin Starr"
+ },
+ "(They Long to Be) Close to You — Carpenters": {
+  "id": 1434887454,
+  "released": "1970",
+  "found": "(They Long to Be) Close to You — Carpenters"
+ },
+ "Ain't No Mountain High Enough — Diana Ross": {
+  "id": 1440739852,
+  "released": "1967",
+  "found": "Ain't No Mountain High Enough — Diana Ross"
+ },
+ "Joy to the World — Three Dog Night": {
+  "id": 1440809160,
+  "released": "1969",
+  "found": "Joy to the World — Three Dog Night"
+ },
+ "It's Too Late — Carole King": {
+  "id": 747087665,
+  "released": "1971",
+  "found": "It's Too Late — Carole King"
+ },
+ "Maggie May — Rod Stewart": {
+  "id": 1425286086,
+  "released": "1970",
+  "found": "Maggie May — Rod Stewart"
+ },
+ "What's Going On — Marvin Gaye": {
+  "id": 1567623702,
+  "released": "1971",
+  "found": "What's Going On (Single Version) — Marvin Gaye"
+ },
+ "Imagine — John Lennon": {
+  "id": 1440853776,
+  "released": "1971",
+  "found": "Imagine — John Lennon"
+ },
+ "Lean on Me — Bill Withers": {
+  "id": 391725484,
+  "released": "1972",
+  "found": "Lean On Me — Bill Withers"
+ },
+ "A Horse with No Name — America": {
+  "id": 63820146,
+  "released": "1971",
+  "found": "A Horse with No Name — America"
+ },
+ "Alone Again (Naturally) — Gilbert O'Sullivan": {
+  "id": 396247378,
+  "released": "1972",
+  "found": "Alone Again Naturally — Gilbert O'Sullivan"
+ },
+ "I Can See Clearly Now — Johnny Nash": {
+  "id": 217273922,
+  "released": "1972",
+  "found": "I Can See Clearly Now — Johnny Nash"
+ },
+ "Superstition — Stevie Wonder": {
+  "id": 1440808985,
+  "released": "1972",
+  "found": "Superstition — Stevie Wonder"
+ },
+ "Killing Me Softly with His Song — Roberta Flack": {
+  "id": 355038523,
+  "released": "1973",
+  "found": "Killing Me Softly With His Song — Roberta Flack"
+ },
+ "Tie a Yellow Ribbon Round the Ole Oak Tree — Dawn": {
+  "id": 790443678,
+  "released": "1973",
+  "found": "Tie a Yellow Ribbon Round the Ole Oak Tree — Dawn"
+ },
+ "Bad, Bad Leroy Brown — Jim Croce": {
+  "id": 1674575345,
+  "released": "1973",
+  "found": "Bad, Bad Leroy Brown — Jim Croce"
+ },
+ "Let's Get It On — Marvin Gaye": {
+  "id": 1445094678,
+  "released": "1973",
+  "found": "Let's Get It On — Marvin Gaye"
+ },
+ "Money — Pink Floyd": {
+  "id": 1066498948,
+  "released": "1973",
+  "found": "Money — Pink Floyd"
+ },
+ "Bennie and the Jets — Elton John": {
+  "id": 1484998282,
+  "released": "1973",
+  "found": "Bennie and the Jets — Elton John"
+ },
+ "Kung Fu Fighting — Carl Douglas": {
+  "id": 1618254459,
+  "released": "1974",
+  "found": "Kung Fu Fighting — Carl Douglas"
+ },
+ "Sweet Home Alabama — Lynyrd Skynyrd": {
+  "id": 1413948381,
+  "released": "1974",
+  "found": "Sweet Home Alabama — Lynyrd Skynyrd"
+ },
+ "Waterloo — ABBA": {
+  "id": 1422649021,
+  "released": "1974",
+  "found": "Waterloo — ABBA"
+ },
+ "I Shot the Sheriff — Eric Clapton": {
+  "id": 1440851651,
+  "released": "1974",
+  "found": "I Shot the Sheriff — Eric Clapton"
+ },
+ "Love Will Keep Us Together — Captain & Tennille": {
+  "id": 1442300589,
+  "released": "1975",
+  "found": "Love Will Keep Us Together — Captain & Tennille"
+ },
+ "Bohemian Rhapsody — Queen": {
+  "id": 6781024437,
+  "released": "1975",
+  "found": "Bohemian Rhapsody — Queen"
+ },
+ "Jive Talkin' — Bee Gees": {
+  "id": 1445664306,
+  "released": "1975",
+  "found": "Jive Talkin' — Bee Gees"
+ },
+ "Shining Star — Earth, Wind & Fire": {
+  "id": 1456444814,
+  "released": "1975",
+  "found": "Shining Star — Earth, Wind & Fire"
+ },
+ "Rhinestone Cowboy — Glen Campbell": {
+  "id": 1442453158,
+  "released": "1975",
+  "found": "Rhinestone Cowboy — Glen Campbell"
+ },
+ "Born to Run — Bruce Springsteen": {
+  "id": 1045058681,
+  "released": "1975",
+  "found": "Born to Run — Bruce Springsteen"
+ },
+ "Fame — David Bowie": {
+  "id": 1195110202,
+  "released": "1975",
+  "found": "Fame — David Bowie"
+ },
+ "Silly Love Songs — Wings": {
+  "id": 1440943745,
+  "released": "1976",
+  "found": "Silly Love Songs — Wings"
+ },
+ "Dancing Queen — ABBA": {
+  "id": 1422648513,
+  "released": "1976",
+  "found": "Dancing Queen — ABBA"
+ },
+ "Don't Go Breaking My Heart — Elton John & Kiki Dee": {
+  "id": 1440913387,
+  "released": "1975",
+  "found": "Don't Go Breaking My Heart — Elton John & Kiki Dee"
+ },
+ "Play That Funky Music — Wild Cherry": {
+  "id": 198226129,
+  "released": "1976",
+  "found": "Play That Funky Music — Wild Cherry"
+ },
+ "Tonight's the Night (Gonna Be Alright) — Rod Stewart": {
+  "id": 295535297,
+  "released": "1976",
+  "found": "Tonight's the Night (Gonna Be Alright) [2008 Remaster] — Rod Stewart"
+ },
+ "Dreams — Fleetwood Mac": {
+  "id": 594061856,
+  "released": "1977",
+  "found": "Dreams — Fleetwood Mac"
+ },
+ "Hotel California — Eagles": {
+  "id": 635770202,
+  "released": "1976",
+  "found": "Hotel California — Eagles"
+ },
+ "I Just Want to Be Your Everything — Andy Gibb": {
+  "id": 1354134477,
+  "released": "1977",
+  "found": "I Just Want to Be Your Everything — Andy Gibb"
+ },
+ "You Light Up My Life — Debby Boone": {
+  "id": 696446121,
+  "released": "1977",
+  "found": "You Light up My Life — Debby Boone"
+ },
+ "How Deep Is Your Love — Bee Gees": {
+  "id": 1445664553,
+  "released": "1977",
+  "found": "How Deep Is Your Love — Bee Gees"
+ },
+ "Sir Duke — Stevie Wonder": {
+  "id": 1440788542,
+  "released": "1976",
+  "found": "Sir Duke — Stevie Wonder"
+ },
+ "We Are the Champions — Queen": {
+  "id": 6781080744,
+  "released": "1977",
+  "found": "We Are The Champions — Queen"
+ },
+ "Night Fever — Bee Gees": {
+  "id": 1445668465,
+  "released": "1977",
+  "found": "Night Fever (From \"Saturday Night Fever\" Soundtrack) — Bee Gees"
+ },
+ "Shadow Dancing — Andy Gibb": {
+  "id": 1354134476,
+  "released": "1978",
+  "found": "Shadow Dancing — Andy Gibb"
+ },
+ "You're the One That I Want — John Travolta & Olivia Newton-John": {
+  "id": 1440844700,
+  "released": "1978",
+  "found": "You're the One That I Want — John Travolta & Olivia Newton-John"
+ },
+ "Baker Street — Gerry Rafferty": {
+  "id": 693606496,
+  "released": "1978",
+  "found": "Baker Street — Gerry Rafferty"
+ },
+ "Y.M.C.A. — Village People": {
+  "id": 1443926626,
+  "released": "1978",
+  "found": "Y.M.C.A. — Village People"
+ },
+ "Le Freak — Chic": {
+  "id": 648149713,
+  "released": "1978",
+  "found": "Le Freak (Single Edit) — Chic"
+ },
+ "Hot Stuff — Donna Summer": {
+  "id": 6793735690,
+  "released": "1979",
+  "found": "Hot Stuff — Donna Summer"
+ },
+ "My Sharona — The Knack": {
+  "id": 716268684,
+  "released": "1979",
+  "found": "My Sharona — The Knack"
+ },
+ "Don't Stop 'Til You Get Enough — Michael Jackson": {
+  "id": 197991926,
+  "released": "1966",
+  "found": "Don't Stop 'Til You Get Enough — Michael Jackson"
+ },
+ "Heart of Glass — Blondie": {
+  "id": 1440930363,
+  "released": "1978",
+  "found": "Heart of Glass — Blondie"
+ },
+ "We Are Family — Sister Sledge": {
+  "id": 281713777,
+  "released": "1978",
+  "found": "We Are Family (Single Version) — Sister Sledge"
+ },
+ "Rapper's Delight — The Sugarhill Gang": {
+  "id": 52310973,
+  "released": "1999",
+  "found": "Rapper's Delight — The Sugarhill Gang"
+ },
+ "Video Killed the Radio Star — The Buggles": {
+  "id": 1445282590,
+  "released": "1974",
+  "found": "Video Killed the Radio Star (Single Version) — The Buggles"
+ },
+ "Another Brick in the Wall, Pt. 2 — Pink Floyd": {
+  "id": 1067444770,
+  "released": "1979",
+  "found": "Another Brick In the Wall, Pt. 2 — Pink Floyd"
+ },
+ "Call Me — Blondie": {
+  "id": 1877197133,
+  "released": "1980",
+  "found": "Call Me (Remastered 2002) — Blondie"
+ },
+ "Another One Bites the Dust — Queen": {
+  "id": 6781076397,
+  "released": "1980",
+  "found": "Another One Bites The Dust — Queen"
+ },
+ "Lady — Kenny Rogers": {
+  "id": 1375006944,
+  "released": "1980",
+  "found": "Lady — Kenny Rogers"
+ },
+ "Funkytown — Lipps Inc.": {
+  "id": 1440894579,
+  "released": "1979",
+  "found": "Funkytown — Lipps, Inc."
+ },
+ "Sailing — Christopher Cross": {
+  "id": 1845049885,
+  "released": "1979",
+  "found": "Sailing — Christopher Cross"
+ },
+ "Upside Down — Diana Ross": {
+  "id": 1445749385,
+  "released": "1980",
+  "found": "Upside Down — Diana Ross"
+ },
+ "Back in Black — AC/DC": {
+  "id": 574050602,
+  "released": "1980",
+  "found": "Back In Black — AC/DC"
+ },
+ "Bette Davis Eyes — Kim Carnes": {
+  "id": 713030328,
+  "released": "1975",
+  "found": "Bette Davis Eyes — Kim Carnes"
+ },
+ "Physical — Olivia Newton-John": {
+  "id": 1880871417,
+  "released": "1981",
+  "found": "Physical (Remastered 2021) — Olivia Newton-John"
+ },
+ "Endless Love — Diana Ross & Lionel Richie": {
+  "id": 1443896316,
+  "released": "1981",
+  "found": "Endless Love — Lionel Richie & Diana Ross"
+ },
+ "Don't Stop Believin' — Journey": {
+  "id": 160024096,
+  "released": "1981",
+  "found": "Don't Stop Believin' — Journey"
+ },
+ "Jessie's Girl — Rick Springfield": {
+  "id": 271905709,
+  "released": "1981",
+  "found": "Jessie's Girl — Rick Springfield"
+ },
+ "I Love Rock 'n' Roll — Joan Jett & the Blackhearts": {
+  "id": 1881685586,
+  "released": "1981",
+  "found": "I Love Rock 'N Roll — Joan Jett & The Blackhearts"
+ },
+ "Eye of the Tiger — Survivor": {
+  "id": 267725692,
+  "released": "1981",
+  "found": "Eye Of The Tiger — Survivor"
+ },
+ "Ebony and Ivory — Paul McCartney & Stevie Wonder": {
+  "id": 1440939263,
+  "released": "1982",
+  "found": "Ebony and Ivory — Paul McCartney & Stevie Wonder"
+ },
+ "Jack & Diane — John Mellencamp": {
+  "id": null
+ },
+ "Africa — Toto": {
+  "id": 1719205663,
+  "released": "1982",
+  "found": "Africa — Toto"
+ },
+ "Come On Eileen — Dexys Midnight Runners": {
+  "id": 1437592397,
+  "released": "1974",
+  "found": "Come on Eileen — Dexys Midnight Runners"
+ },
+ "Billie Jean — Michael Jackson": {
+  "id": 160022413,
+  "released": "1966",
+  "found": "Billie Jean — Michael Jackson"
+ },
+ "Beat It — Michael Jackson": {
+  "id": 269573341,
+  "released": "1982",
+  "found": "Beat It — Michael Jackson"
+ },
+ "Every Breath You Take — The Police": {
+  "id": 1440882897,
+  "released": "1983",
+  "found": "Every Breath You Take — The Police"
+ },
+ "Flashdance... What a Feeling — Irene Cara": {
+  "id": 284659248,
+  "released": "1983",
+  "found": "Flashdance...What a Feeling — Irene Cara"
+ },
+ "Total Eclipse of the Heart — Bonnie Tyler": {
+  "id": 318675359,
+  "released": "1982",
+  "found": "Total Eclipse of the Heart (Single Version) — Bonnie Tyler"
+ },
+ "Sweet Dreams (Are Made of This) — Eurythmics": {
+  "id": 308221829,
+  "released": "1982",
+  "found": "Sweet Dreams (Are Made of This) — Eurythmics"
+ },
+ "All Night Long (All Night) — Lionel Richie": {
+  "id": 1440832460,
+  "released": "1983",
+  "found": "All Night Long (All Night) — Lionel Richie"
+ },
+ "Karma Chameleon — Culture Club": {
+  "id": 724204821,
+  "released": "1983",
+  "found": "Karma Chameleon — Culture Club"
+ },
+ "When Doves Cry — Prince": {
+  "id": 212972932,
+  "released": "1984",
+  "found": "When Doves Cry — Prince"
+ },
+ "Time After Time — Cyndi Lauper": {
+  "id": 400603695,
+  "released": "1983",
+  "found": "Time After Time — Cyndi Lauper"
+ },
+ "Ghostbusters — Ray Parker Jr.": {
+  "id": 298553998,
+  "released": "1984",
+  "found": "Ghostbusters — Ray Parker Jr."
+ },
+ "Wake Me Up Before You Go-Go — Wham!": {
+  "id": 193084947,
+  "released": "1984",
+  "found": "Wake Me Up Before You Go-Go — Wham!"
+ },
+ "Footloose — Kenny Loggins": {
+  "id": 1058079258,
+  "released": "1984",
+  "found": "Footloose (From \"Footloose\" Soundtrack) — Kenny Loggins"
+ },
+ "What's Love Got to Do with It — Tina Turner": {
+  "id": 804178540,
+  "released": "1984",
+  "found": "What's Love Got to Do with It — Tina Turner"
+ },
+ "Like a Virgin — Madonna": {
+  "id": 80815215,
+  "released": "1984",
+  "found": "Like a Virgin — Madonna"
+ },
+ "Dancing in the Dark — Bruce Springsteen": {
+  "id": 203709340,
+  "released": "1984",
+  "found": "Dancing In the Dark — Bruce Springsteen"
+ },
+ "We Are the World — USA for Africa": {
+  "id": null
+ },
+ "Everybody Wants to Rule the World — Tears for Fears": {
+  "id": 1443227571,
+  "released": "1985",
+  "found": "Everybody Wants to Rule the World — Tears for Fears"
+ },
+ "Don't You (Forget About Me) — Simple Minds": {
+  "id": 1440773100,
+  "released": "1985",
+  "found": "Don't You (Forget About Me) — Simple Minds"
+ },
+ "Money for Nothing — Dire Straits": {
+  "id": 308689553,
+  "released": "1985",
+  "found": "Money for Nothing (Radio Edit) — Dire Straits"
+ },
+ "Material Girl — Madonna": {
+  "id": 80812061,
+  "released": "1984",
+  "found": "Material Girl — Madonna"
+ },
+ "The Power of Love — Huey Lewis & The News": {
+  "id": 1440829906,
+  "released": "1985",
+  "found": "The Power of Love — Huey Lewis & The News"
+ },
+ "We Built This City — Starship": {
+  "id": 1446293107,
+  "released": "1985",
+  "found": "We Built This City — Starship"
+ },
+ "Running Up That Hill (A Deal with God) — Kate Bush": {
+  "id": 1675560578,
+  "released": "1985",
+  "found": "Running Up That Hill (A Deal With God) [2018 Remaster] — Kate Bush"
+ },
+ "Greatest Love of All — Whitney Houston": {
+  "id": 349286436,
+  "released": "1985",
+  "found": "Greatest Love of All — Whitney Houston"
+ },
+ "Livin' on a Prayer — Bon Jovi": {
+  "id": 1422955211,
+  "released": "1986",
+  "found": "Livin' On a Prayer — Bon Jovi"
+ },
+ "Walk Like an Egyptian — The Bangles": {
+  "id": 200008030,
+  "released": "1985",
+  "found": "Walk Like an Egyptian — The Bangles"
+ },
+ "Take My Breath Away — Berlin": {
+  "id": 1434879458,
+  "released": "1986",
+  "found": "Take My Breath Away — Berlin"
+ },
+ "Sledgehammer — Peter Gabriel": {
+  "id": 987420387,
+  "released": "1986",
+  "found": "Sledgehammer — Peter Gabriel"
+ },
+ "Papa Don't Preach — Madonna": {
+  "id": 80815248,
+  "released": "1986",
+  "found": "Papa Don't Preach — Madonna"
+ },
+ "Walk This Way — Run-DMC": {
+  "id": 254344996,
+  "released": "1986",
+  "found": "Walk This Way (feat. Aerosmith) — Run-DMC"
+ },
+ "The Final Countdown — Europe": {
+  "id": 190194643,
+  "released": "1986",
+  "found": "The Final Countdown — Europe"
+ },
+ "I Wanna Dance with Somebody (Who Loves Me) — Whitney Houston": {
+  "id": 840431935,
+  "released": "1987",
+  "found": "I Wanna Dance with Somebody (Who Loves Me) — Whitney Houston"
+ },
+ "With or Without You — U2": {
+  "id": 1440729860,
+  "released": "1987",
+  "found": "With or Without You — U2"
+ },
+ "Never Gonna Give You Up — Rick Astley": {
+  "id": 1624945512,
+  "released": "1987",
+  "found": "Never Gonna Give You Up (2022 Remaster) — Rick Astley"
+ },
+ "(I've Had) The Time of My Life — Bill Medley & Jennifer Warnes": {
+  "id": 560357353,
+  "released": "1987",
+  "found": "(I've Had) The Time of My Life (Remastered Version) — Bill Medley & Jennifer Warnes"
+ },
+ "Nothing's Gonna Stop Us Now — Starship": {
+  "id": 1446278331,
+  "released": "1987",
+  "found": "Nothing's Gonna Stop Us Now — Starship"
+ },
+ "Bad — Michael Jackson": {
+  "id": 159294345,
+  "released": "1987",
+  "found": "Bad — Michael Jackson"
+ },
+ "Heaven Is a Place on Earth — Belinda Carlisle": {
+  "id": 1440771048,
+  "released": "1987",
+  "found": "Heaven is a Place on Earth — Belinda Carlisle"
+ },
+ "Faith — George Michael": {
+  "id": 282658468,
+  "released": "1987",
+  "found": "Faith — George Michael"
+ },
+ "Don't Worry, Be Happy — Bobby McFerrin": {
+  "id": 310526850,
+  "released": "1988",
+  "found": "Don't Worry, Be Happy — Bobby McFerrin"
+ },
+ "Fast Car — Tracy Chapman": {
+  "id": 1051106565,
+  "released": "1988",
+  "found": "Fast Car (2015 Remastered) — Tracy Chapman"
+ },
+ "Man in the Mirror — Michael Jackson": {
+  "id": 159294478,
+  "released": "1987",
+  "found": "Man In the Mirror — Michael Jackson"
+ },
+ "Bad Medicine — Bon Jovi": {
+  "id": 1482016798,
+  "released": "1988",
+  "found": "Bad Medicine (Radio Edit) — Bon Jovi"
+ },
+ "Every Rose Has Its Thorn — Poison": {
+  "id": 716552556,
+  "released": "1988",
+  "found": "Every Rose Has Its Thorn — Poison"
+ },
+ "The Flame — Cheap Trick": {
+  "id": 318675471,
+  "released": "1988",
+  "found": "The Flame (Single Edit) — Cheap Trick"
+ },
+ "Like a Prayer — Madonna": {
+  "id": 83445997,
+  "released": "1989",
+  "found": "Like a Prayer — Madonna"
+ },
+ "The Look — Roxette": {
+  "id": 693154909,
+  "released": "1988",
+  "found": "The Look — Roxette"
+ },
+ "Cold Hearted — Paula Abdul": {
+  "id": 723700441,
+  "released": "1988",
+  "found": "Cold Hearted — Paula Abdul"
+ },
+ "We Didn't Start the Fire — Billy Joel": {
+  "id": 160022555,
+  "released": "1966",
+  "found": "We Didn't Start the Fire — Billy Joel"
+ },
+ "Hangin' Tough — New Kids on the Block": {
+  "id": 158643801,
+  "released": "1988",
+  "found": "Hangin' Tough — New Kids On the Block"
+ },
+ "If You Don't Know Me by Now — Simply Red": {
+  "id": 321977378,
+  "released": "1989",
+  "found": "If You Don't Know Me By Now — Simply Red"
+ },
+ "Another Day in Paradise — Phil Collins": {
+  "id": 1148701937,
+  "released": "1989",
+  "found": "Another Day In Paradise — Phil Collins"
+ },
+ "Miss You Much — Janet Jackson": {
+  "id": 1145522055,
+  "released": "1989",
+  "found": "Miss You Much — Janet Jackson"
+ },
+ "Nothing Compares 2 U — Sinéad O'Connor": {
+  "id": 1629113362,
+  "released": "1990",
+  "found": "Nothing Compares 2 U — Sinéad O'Connor"
+ },
+ "Vogue — Madonna": {
+  "id": 80812397,
+  "released": "1990",
+  "found": "Vogue — Madonna"
+ },
+ "U Can't Touch This — MC Hammer": {
+  "id": 1443010837,
+  "released": "1990",
+  "found": "U Can't Touch This — MC Hammer"
+ },
+ "Ice Ice Baby — Vanilla Ice": {
+  "id": 292538652,
+  "released": "1989",
+  "found": "Ice Ice Baby — Vanilla Ice"
+ },
+ "Hold On — Wilson Phillips": {
+  "id": 1444009288,
+  "released": "1990",
+  "found": "Hold On — Wilson Phillips"
+ },
+ "Vision of Love — Mariah Carey": {
+  "id": 169605940,
+  "released": "1990",
+  "found": "Vision of Love — Mariah Carey"
+ },
+ "The Power — Snap!": {
+  "id": 1437337382,
+  "released": "1990",
+  "found": "The Power — Snap!"
+ },
+ "Groove Is in the Heart — Deee-Lite": {
+  "id": 72793857,
+  "released": "1990",
+  "found": "Groove Is In the Heart — Deee-Lite"
+ },
+ "(Everything I Do) I Do It for You — Bryan Adams": {
+  "id": 1440756952,
+  "released": "1991",
+  "found": "(Everything I Do) I Do It for You — Bryan Adams"
+ },
+ "Losing My Religion — R.E.M.": {
+  "id": 1442996689,
+  "released": "1991",
+  "found": "Losing My Religion — R.E.M."
+ },
+ "Smells Like Teen Spirit — Nirvana": {
+  "id": 1440783625,
+  "released": "1991",
+  "found": "Smells Like Teen Spirit — Nirvana"
+ },
+ "Black or White — Michael Jackson": {
+  "id": 159294814,
+  "released": "1991",
+  "found": "Black or White — Michael Jackson"
+ },
+ "Rush Rush — Paula Abdul": {
+  "id": 723758797,
+  "released": "1991",
+  "found": "Rush Rush — Paula Abdul"
+ },
+ "Motownphilly — Boyz II Men": {
+  "id": 1440776792,
+  "released": "1991",
+  "found": "Motownphilly — Boyz II Men"
+ },
+ "End of the Road — Boyz II Men": {
+  "id": 1440776985,
+  "released": "1991",
+  "found": "End of the Road — Boyz II Men"
+ },
+ "I Will Always Love You — Whitney Houston": {
+  "id": 388151901,
+  "released": "1992",
+  "found": "I Will Always Love You — Whitney Houston"
+ },
+ "Baby Got Back — Sir Mix-a-Lot": {
+  "id": 716376092,
+  "released": "1992",
+  "found": "Baby Got Back — Sir Mix-A-Lot"
+ },
+ "Jump — Kris Kross": {
+  "id": 170147030,
+  "released": "1992",
+  "found": "Jump — Kris Kross"
+ },
+ "Achy Breaky Heart — Billy Ray Cyrus": {
+  "id": 1440756026,
+  "released": "1992",
+  "found": "Achy Breaky Heart — Billy Ray Cyrus"
+ },
+ "Tears in Heaven — Eric Clapton": {
+  "id": 337392882,
+  "released": "1992",
+  "found": "Tears In Heaven — Eric Clapton"
+ },
+ "Under the Bridge — Red Hot Chili Peppers": {
+  "id": 948460560,
+  "released": "1991",
+  "found": "Under the Bridge — Red Hot Chili Peppers"
+ },
+ "Rhythm Is a Dancer — Snap!": {
+  "id": 1437330578,
+  "released": "1991",
+  "found": "Rhythm Is a Dancer — Snap!"
+ },
+ "(I Can't Help) Falling in Love with You — UB40": {
+  "id": 724099087,
+  "released": "1993",
+  "found": "(I Can't Help) Falling in Love With You — UB40"
+ },
+ "What Is Love — Haddaway": {
+  "id": 1731384547,
+  "released": "1992",
+  "found": "What Is Love (7\" Mix) — Haddaway"
+ },
+ "I'd Do Anything for Love (But I Won't Do That) — Meat Loaf": {
+  "id": 1452850188,
+  "released": "1993",
+  "found": "I'd Do Anything for Love (But I Won't Do That) — Meat Loaf"
+ },
+ "What's Up? — 4 Non Blondes": {
+  "id": 1440902348,
+  "released": "1992",
+  "found": "What's Up? — 4 Non Blondes"
+ },
+ "That's the Way Love Goes — Janet Jackson": {
+  "id": 1388413850,
+  "released": "1993",
+  "found": "That's the Way Love Goes — Janet Jackson"
+ },
+ "Hero — Mariah Carey": {
+  "id": 1462743755,
+  "released": "1990",
+  "found": "Hero — Luciano Pavarotti & Mariah Carey"
+ },
+ "Whoomp! (There It Is) — Tag Team": {
+  "id": 1244743915,
+  "released": "1998",
+  "found": "Whoomp! There It Is — Tag Team"
+ },
+ "I'll Make Love to You — Boyz II Men": {
+  "id": 1442890567,
+  "released": "1995",
+  "found": "I'll Make Love to You — Boyz II Men"
+ },
+ "I Swear — All-4-One": {
+  "id": 300974587,
+  "released": "1994",
+  "found": "I Swear — All-4-One"
+ },
+ "Love Is All Around — Wet Wet Wet": {
+  "id": 1440861912,
+  "released": "1986",
+  "found": "Love Is All Around — Wet Wet Wet"
+ },
+ "Stay (I Missed You) — Lisa Loeb": {
+  "id": 1270065322,
+  "released": "1994",
+  "found": "Stay (I Missed You) — Lisa Loeb"
+ },
+ "All I Want for Christmas Is You — Mariah Carey": {
+  "id": 585972803,
+  "released": "1994",
+  "found": "All I Want for Christmas Is You — Mariah Carey"
+ },
+ "Can You Feel the Love Tonight — Elton John": {
+  "id": 1652669049,
+  "released": "1994",
+  "found": "Can You Feel The Love Tonight (Remastered) — Elton John"
+ },
+ "Basket Case — Green Day": {
+  "id": 1160990873,
+  "released": "1994",
+  "found": "Basket Case — Green Day"
+ },
+ "Buddy Holly — Weezer": {
+  "id": 1440798133,
+  "released": "1994",
+  "found": "Buddy Holly — Weezer"
+ },
+ "Gangsta's Paradise — Coolio": {
+  "id": 1827554491,
+  "released": "1995",
+  "found": "Gangsta's Paradise — Coolio & L.V."
+ },
+ "Waterfalls — TLC": {
+  "id": 270246724,
+  "released": "1994",
+  "found": "Waterfalls — TLC"
+ },
+ "Fantasy — Mariah Carey": {
+  "id": 169962189,
+  "released": "1995",
+  "found": "Fantasy — Mariah Carey"
+ },
+ "You Oughta Know — Alanis Morissette": {
+  "id": null
+ },
+ "Wonderwall — Oasis": {
+  "id": 1517447333,
+  "released": "1995",
+  "found": "Wonderwall — Oasis"
+ },
+ "One Sweet Day — Mariah Carey & Boyz II Men": {
+  "id": 169962196,
+  "released": "1995",
+  "found": "One Sweet Day (feat. Boyz II Men) — Mariah Carey"
+ },
+ "You Are Not Alone — Michael Jackson": {
+  "id": 655265154,
+  "released": "1995",
+  "found": "You Are Not Alone — Michael Jackson"
+ },
+ "This Is How We Do It — Montell Jordan": {
+  "id": 1442959466,
+  "released": "1995",
+  "found": "This Is How We Do It — Montell Jordan"
+ },
+ "Boombastic — Shaggy": {
+  "id": 775997122,
+  "released": "1995",
+  "found": "Boombastic — Shaggy"
+ },
+ "Because You Loved Me — Celine Dion": {
+  "id": 160022706,
+  "released": "1996",
+  "found": "Because You Loved Me — Céline Dion"
+ },
+ "Killing Me Softly — Fugees": {
+  "id": 1054461710,
+  "released": "1996",
+  "found": "Killing Me Softly with His Song — Fugees"
+ },
+ "Wannabe — Spice Girls": {
+  "id": 1573849255,
+  "released": "1996",
+  "found": "Wannabe — Spice Girls"
+ },
+ "Un-Break My Heart — Toni Braxton": {
+  "id": 303848806,
+  "released": "1996",
+  "found": "Un-Break My Heart — Toni Braxton"
+ },
+ "Tha Crossroads — Bone Thugs-n-Harmony": {
+  "id": 1168167477,
+  "released": "1995",
+  "found": "Tha Crossroads — Bone Thugs-n-Harmony"
+ },
+ "Change the World — Eric Clapton": {
+  "id": 1648144410,
+  "released": "1996",
+  "found": "Change the World — Eric Clapton"
+ },
+ "Return of the Mack — Mark Morrison": {
+  "id": 81902612,
+  "released": "1996",
+  "found": "Return of the Mack — Mark Morrison"
+ },
+ "Don't Speak — No Doubt": {
+  "id": 1440845557,
+  "released": "1995",
+  "found": "Don't Speak — No Doubt"
+ },
+ "Ironic — Alanis Morissette": {
+  "id": 1715762825,
+  "released": "1995",
+  "found": "Ironic — Alanis Morissette"
+ },
+ "MMMBop — Hanson": {
+  "id": 1443805791,
+  "released": "1997",
+  "found": "MMMBop (Single Version) — Hanson"
+ },
+ "I'll Be Missing You — Puff Daddy & Faith Evans": {
+  "id": 906589235,
+  "released": "1997",
+  "found": "I'll Be Missing You (feat. Faith Evans & 112) — Puff Daddy"
+ },
+ "Hypnotize — The Notorious B.I.G.": {
+  "id": 217613319,
+  "released": "1997",
+  "found": "Hypnotize — The Notorious B.I.G."
+ },
+ "Barbie Girl — Aqua": {
+  "id": 1442732381,
+  "released": "1997",
+  "found": "Barbie Girl — Aqua"
+ },
+ "Tubthumping — Chumbawamba": {
+  "id": 713773457,
+  "released": "1997",
+  "found": "Tubthumping — Chumbawamba"
+ },
+ "Everybody (Backstreet's Back) — Backstreet Boys": {
+  "id": 650117363,
+  "released": "1997",
+  "found": "Everybody (Backstreet's Back) [Radio Edit] — Backstreet Boys"
+ },
+ "Truly Madly Deeply — Savage Garden": {
+  "id": 157485088,
+  "released": "1997",
+  "found": "Truly Madly Deeply — Savage Garden"
+ },
+ "Men in Black — Will Smith": {
+  "id": 309484308,
+  "released": "1988",
+  "found": "Men In Black — Will Smith"
+ },
+ "Semi-Charmed Life — Third Eye Blind": {
+  "id": 164394654,
+  "released": "1997",
+  "found": "Semi-Charmed Life — Third Eye Blind"
+ },
+ "My Heart Will Go On — Celine Dion": {
+  "id": 1745568934,
+  "released": "1997",
+  "found": "My Heart Will Go On — Céline Dion"
+ },
+ "The Boy Is Mine — Brandy & Monica": {
+  "id": 20913041,
+  "released": "1998",
+  "found": "The Boy Is Mine — Brandy & Monica"
+ },
+ "I Don't Want to Miss a Thing — Aerosmith": {
+  "id": 217271368,
+  "released": "1998",
+  "found": "I Don't Want to Miss a Thing — Aerosmith"
+ },
+ "Believe — Cher": {
+  "id": 73273491,
+  "released": "1998",
+  "found": "Believe — Cher"
+ },
+ "...Baby One More Time — Britney Spears": {
+  "id": 273143820,
+  "released": "1998",
+  "found": "...Baby One More Time — Britney Spears"
+ },
+ "Doo Wop (That Thing) — Lauryn Hill": {
+  "id": 160022831,
+  "released": "1998",
+  "found": "Doo Wop (That Thing) — Lauryn Hill"
+ },
+ "Iris — Goo Goo Dolls": {
+  "id": 267537169,
+  "released": "1998",
+  "found": "Iris — The Goo Goo Dolls"
+ },
+ "Gettin' Jiggy wit It — Will Smith": {
+  "id": 206201781,
+  "released": "1997",
+  "found": "Gettin' Jiggy Wit It — Will Smith"
+ },
+ "Smooth — Santana feat. Rob Thomas": {
+  "id": 265816505,
+  "released": "1999",
+  "found": "Smooth (feat. Rob Thomas) — Santana"
+ },
+ "Livin' la Vida Loca — Ricky Martin": {
+  "id": 1059895882,
+  "released": "1999",
+  "found": "Livin' la Vida Loca — Ricky Martin"
+ },
+ "No Scrubs — TLC": {
+  "id": 1730998353,
+  "released": "1999",
+  "found": "No Scrubs (Radio Version) — TLC"
+ },
+ "Genie in a Bottle — Christina Aguilera": {
+  "id": 1308542773,
+  "released": "1999",
+  "found": "Genie in a Bottle — Christina Aguilera"
+ },
+ "Mambo No. 5 — Lou Bega": {
+  "id": null
+ },
+ "Bills, Bills, Bills — Destiny's Child": {
+  "id": 266809619,
+  "released": "1999",
+  "found": "Bills, Bills, Bills — Destiny's Child"
+ },
+ "I Want It That Way — Backstreet Boys": {
+  "id": 283567164,
+  "released": "1999",
+  "found": "I Want It That Way — Backstreet Boys"
+ },
+ "All Star — Smash Mouth": {
+  "id": 1440517537,
+  "released": "1999",
+  "found": "All Star — Smash Mouth"
+ },
+ "If You Had My Love — Jennifer Lopez": {
+  "id": 265143175,
+  "released": "1999",
+  "found": "If You Had My Love — Jennifer Lopez"
+ },
+ "Say My Name — Destiny's Child": {
+  "id": 266809802,
+  "released": "1999",
+  "found": "Say My Name — Destiny's Child"
+ },
+ "Independent Women, Pt. 1 — Destiny's Child": {
+  "id": 217363246,
+  "released": "2000",
+  "found": "Independent Women, Pt. 1 — Destiny's Child"
+ },
+ "Bent — Matchbox Twenty": {
+  "id": 579997975,
+  "released": "2000",
+  "found": "Bent — Matchbox Twenty"
+ },
+ "Maria Maria — Santana": {
+  "id": 354579342,
+  "released": "1999",
+  "found": "Maria Maria (feat. The Product G&B) [Radio Mix] — Santana"
+ },
+ "Bye Bye Bye — *NSYNC": {
+  "id": 303095572,
+  "released": "2000",
+  "found": "Bye Bye Bye — *NSYNC"
+ },
+ "Oops!... I Did It Again — Britney Spears": {
+  "id": 269969904,
+  "released": "2000",
+  "found": "Oops!...I Did It Again — Britney Spears"
+ },
+ "Music — Madonna": {
+  "id": 80815173,
+  "released": "2000",
+  "found": "Music — Madonna"
+ },
+ "The Real Slim Shady — Eminem": {
+  "id": 1440723739,
+  "released": "2000",
+  "found": "The Real Slim Shady — Eminem"
+ },
+ "Who Let the Dogs Out — Baha Men": {
+  "id": 723351644,
+  "released": "2000",
+  "found": "Who Let the Dogs Out — Baha Men"
+ },
+ "With Arms Wide Open — Creed": {
+  "id": 1440631605,
+  "released": "1999",
+  "found": "With Arms Wide Open — Creed"
+ },
+ "All for You — Janet Jackson": {
+  "id": 724885384,
+  "released": "2001",
+  "found": "All For You — Janet Jackson"
+ },
+ "Angel — Shaggy": {
+  "id": 1440745528,
+  "released": "2000",
+  "found": "Angel (feat. Rayvon) — Shaggy"
+ },
+ "Fallin' — Alicia Keys": {
+  "id": 256937038,
+  "released": "2001",
+  "found": "Fallin' — Alicia Keys"
+ },
+ "Survivor — Destiny's Child": {
+  "id": 255965552,
+  "released": "2001",
+  "found": "Survivor — Destiny's Child"
+ },
+ "Lady Marmalade — Christina Aguilera, Lil' Kim, Mýa & P!nk": {
+  "id": 1440845801,
+  "released": "2001",
+  "found": "Lady Marmalade — Christina Aguilera, Lil' Kim, Mýa & P!nk"
+ },
+ "Can't Get You Out of My Head — Kylie Minogue": {
+  "id": 726320692,
+  "released": "2001",
+  "found": "Can't Get You Out of My Head — Kylie Minogue"
+ },
+ "How You Remind Me — Nickelback": {
+  "id": 214475478,
+  "released": "2001",
+  "found": "How You Remind Me — Nickelback"
+ },
+ "Clint Eastwood — Gorillaz": {
+  "id": null
+ },
+ "Drops of Jupiter (Tell Me) — Train": {
+  "id": 1438174451,
+  "released": "2001",
+  "found": "Drops of Jupiter (Tell Me) — Train"
+ },
+ "Hot in Herre — Nelly": {
+  "id": 1443820013,
+  "released": "2002",
+  "found": "Hot In Herre — Nelly"
+ },
+ "Dilemma — Nelly feat. Kelly Rowland": {
+  "id": 1443177137,
+  "released": "2002",
+  "found": "Dilemma (feat. Kelly Rowland) — Nelly & Kelly Rowland"
+ },
+ "Lose Yourself — Eminem": {
+  "id": 1443175650,
+  "released": "2002",
+  "found": "Lose Yourself — Eminem"
+ },
+ "Without Me — Eminem": {
+  "id": 1440821643,
+  "released": "2002",
+  "found": "Without Me — Eminem"
+ },
+ "Foolish — Ashanti": {
+  "id": 1063539644,
+  "released": "2002",
+  "found": "Foolish — Ashanti"
+ },
+ "A Thousand Miles — Vanessa Carlton": {
+  "id": 1699263739,
+  "released": "2001",
+  "found": "A Thousand Miles (Single Version) — Vanessa Carlton"
+ },
+ "Complicated — Avril Lavigne": {
+  "id": 315025823,
+  "released": "2002",
+  "found": "Complicated — Avril Lavigne"
+ },
+ "Cry Me a River — Justin Timberlake": {
+  "id": 252606592,
+  "released": "2002",
+  "found": "Cry Me a River — Justin Timberlake"
+ },
+ "The Ketchup Song (Aserejé) — Las Ketchup": {
+  "id": null
+ },
+ "In da Club — 50 Cent": {
+  "id": 1440907550,
+  "released": "2003",
+  "found": "In da Club — 50 Cent"
+ },
+ "Crazy in Love — Beyoncé feat. Jay-Z": {
+  "id": 201274644,
+  "released": "2003",
+  "found": "Crazy in Love (feat. JAŸ-Z) — Beyoncé"
+ },
+ "Hey Ya! — OutKast": {
+  "id": 1774799818,
+  "released": "2003",
+  "found": "Hey Ya! — Outkast"
+ },
+ "Where Is the Love? — Black Eyed Peas": {
+  "id": 1615142635,
+  "released": "2003",
+  "found": "Where Is The Love? — Black Eyed Peas"
+ },
+ "Get Busy — Sean Paul": {
+  "id": 1652782418,
+  "released": "2002",
+  "found": "Get Busy — Sean Paul"
+ },
+ "Bring Me to Life — Evanescence": {
+  "id": 1440666111,
+  "released": "2003",
+  "found": "Bring Me to Life — Evanescence"
+ },
+ "Seven Nation Army — The White Stripes": {
+  "id": 1533513537,
+  "released": "2003",
+  "found": "Seven Nation Army — The White Stripes"
+ },
+ "Miss Independent — Kelly Clarkson": {
+  "id": 304143605,
+  "released": "2003",
+  "found": "Miss Independent — Kelly Clarkson"
+ },
+ "Yeah! — Usher feat. Lil Jon & Ludacris": {
+  "id": 386153478,
+  "released": "2004",
+  "found": "Yeah! (feat. Lil Jon & Ludacris) — USHER"
+ },
+ "Burn — Usher": {
+  "id": 1765605482,
+  "released": "2004",
+  "found": "Burn — USHER"
+ },
+ "This Love — Maroon 5": {
+  "id": 1428782513,
+  "released": "2002",
+  "found": "This Love — Maroon 5"
+ },
+ "Goodies — Ciara": {
+  "id": 302992638,
+  "released": "2004",
+  "found": "Goodies (feat. Petey Pablo) — Ciara"
+ },
+ "Toxic — Britney Spears": {
+  "id": 269969902,
+  "released": "2003",
+  "found": "Toxic — Britney Spears"
+ },
+ "American Idiot — Green Day": {
+  "id": null
+ },
+ "Drop It Like It's Hot — Snoop Dogg feat. Pharrell": {
+  "id": 1445287607,
+  "released": "2004",
+  "found": "Drop It Like It's Hot (Radio Edit) — Pharrell Williams & Snoop Dogg"
+ },
+ "Take Me Out — Franz Ferdinand": {
+  "id": 315844084,
+  "released": "2004",
+  "found": "Take Me Out — Franz Ferdinand"
+ },
+ "We Belong Together — Mariah Carey": {
+  "id": 1476731889,
+  "released": "2005",
+  "found": "We Belong Together — Mariah Carey"
+ },
+ "Candy Shop — 50 Cent": {
+  "id": 1444007299,
+  "released": "2005",
+  "found": "Candy Shop (feat. Olivia) — 50 Cent"
+ },
+ "Hollaback Girl — Gwen Stefani": {
+  "id": 1491226770,
+  "released": "2004",
+  "found": "Hollaback Girl — Gwen Stefani"
+ },
+ "Gold Digger — Kanye West feat. Jamie Foxx": {
+  "id": 1440763833,
+  "released": "2005",
+  "found": "Gold Digger (feat. Jamie Foxx) — Kanye West"
+ },
+ "You're Beautiful — James Blunt": {
+  "id": 202964180,
+  "released": "2004",
+  "found": "You're Beautiful — James Blunt"
+ },
+ "My Humps — Black Eyed Peas": {
+  "id": 1440632597,
+  "released": "2005",
+  "found": "My Humps — Black Eyed Peas"
+ },
+ "Bad Day — Daniel Powter": {
+  "id": 63816165,
+  "released": "2005",
+  "found": "Bad Day — Daniel Powter"
+ },
+ "Feel Good Inc. — Gorillaz": {
+  "id": 850571371,
+  "released": "2005",
+  "found": "Feel Good Inc. (feat. David Jolicoeur, Kelvin Mercer & Vincent Mason) — Gorillaz & De La Soul"
+ },
+ "Hips Don't Lie — Shakira feat. Wyclef Jean": {
+  "id": 1817217063,
+  "released": "2005",
+  "found": "Hips Don't Lie (feat. Wyclef Jean) — Shakira"
+ },
+ "Crazy — Gnarls Barkley": {
+  "id": 1741403966,
+  "released": "2005",
+  "found": "Crazy — Gnarls Barkley"
+ },
+ "Promiscuous — Nelly Furtado feat. Timbaland": {
+  "id": 1471716722,
+  "released": "2006",
+  "found": "Promiscuous (feat. Timbaland) [Radio Edit] — Nelly Furtado"
+ },
+ "SexyBack — Justin Timberlake": {
+  "id": 400946435,
+  "released": "2006",
+  "found": "SexyBack (feat. Timbaland) — Justin Timberlake"
+ },
+ "Irreplaceable — Beyoncé": {
+  "id": 6808333229,
+  "released": "2006",
+  "found": "IRREPLACEABLE — Beyoncé"
+ },
+ "SOS — Rihanna": {
+  "id": 1440866685,
+  "released": "2006",
+  "found": "SOS — Rihanna"
+ },
+ "London Bridge — Fergie": {
+  "id": 1619001756,
+  "released": "2006",
+  "found": "London Bridge — Fergie"
+ },
+ "Chasing Cars — Snow Patrol": {
+  "id": 1440758864,
+  "released": "2005",
+  "found": "Chasing Cars — Snow Patrol"
+ },
+ "Rehab — Amy Winehouse": {
+  "id": 1422677781,
+  "released": "2006",
+  "found": "Rehab — Amy Winehouse"
+ },
+ "Umbrella — Rihanna feat. Jay-Z": {
+  "id": 1441154437,
+  "released": "2007",
+  "found": "Umbrella (feat. JAŸ-Z) — Rihanna"
+ },
+ "Crank That (Soulja Boy) — Soulja Boy": {
+  "id": 1443190324,
+  "released": "2007",
+  "found": "Crank That (Soulja Boy) — Soulja Boy Tell 'Em"
+ },
+ "Apologize — Timbaland feat. OneRepublic": {
+  "id": 1443720975,
+  "released": "2006",
+  "found": "Apologize (feat. OneRepublic) — Timbaland"
+ },
+ "Girlfriend — Avril Lavigne": {
+  "id": 356980430,
+  "released": "2007",
+  "found": "Girlfriend (Radio Edit) — Avril Lavigne"
+ },
+ "Big Girls Don't Cry — Fergie": {
+  "id": 1452677869,
+  "released": "2006",
+  "found": "Big Girls Don't Cry (Personal) — Fergie"
+ },
+ "Grace Kelly — MIKA": {
+  "id": 1440763492,
+  "released": "2007",
+  "found": "Grace Kelly — MIKA"
+ },
+ "Stronger — Kanye West": {
+  "id": 1442846328,
+  "released": "2007",
+  "found": "Stronger — Kanye West"
+ },
+ "Makes Me Wonder — Maroon 5": {
+  "id": null
+ },
+ "I Kissed a Girl — Katy Perry": {
+  "id": 715891620,
+  "released": "2008",
+  "found": "I Kissed a Girl — Katy Perry"
+ },
+ "Lollipop — Lil Wayne": {
+  "id": 1440738657,
+  "released": "2008",
+  "found": "Lollipop (feat. Static Major) — Lil Wayne"
+ },
+ "Viva la Vida — Coldplay": {
+  "id": 1122773680,
+  "released": "2008",
+  "found": "Viva La Vida — Coldplay"
+ },
+ "Disturbia — Rihanna": {
+  "id": 1443100854,
+  "released": "2007",
+  "found": "Disturbia — Rihanna"
+ },
+ "Single Ladies (Put a Ring on It) — Beyoncé": {
+  "id": 295784137,
+  "released": "2008",
+  "found": "Single Ladies (Put a Ring on It) — Beyoncé"
+ },
+ "Just Dance — Lady Gaga": {
+  "id": 1445006767,
+  "released": "2008",
+  "found": "Just Dance — Lady Gaga"
+ },
+ "Poker Face — Lady Gaga": {
+  "id": null
+ },
+ "Sex on Fire — Kings of Leon": {
+  "id": 290303003,
+  "released": "2008",
+  "found": "Sex On Fire — Kings of Leon"
+ },
+ "Mercy — Duffy": {
+  "id": 1446776993,
+  "released": "2008",
+  "found": "Mercy — Duffy"
+ },
+ "I'm Yours — Jason Mraz": {
+  "id": 277636141,
+  "released": "2008",
+  "found": "I'm Yours — Jason Mraz"
+ },
+ "Boom Boom Pow — Black Eyed Peas": {
+  "id": 1443060256,
+  "released": "2009",
+  "found": "Boom Boom Pow — Black Eyed Peas"
+ },
+ "I Gotta Feeling — Black Eyed Peas": {
+  "id": 1443060259,
+  "released": "2009",
+  "found": "I Gotta Feeling — Black Eyed Peas"
+ },
+ "You Belong with Me — Taylor Swift": {
+  "id": 1440925035,
+  "released": "2008",
+  "found": "You Belong With Me — Taylor Swift"
+ },
+ "Down — Jay Sean feat. Lil Wayne": {
+  "id": 1445002842,
+  "released": "2009",
+  "found": "Down — Jay Sean"
+ },
+ "Fireflies — Owl City": {
+  "id": 1440743767,
+  "released": "2009",
+  "found": "Fireflies — Owl City"
+ },
+ "TiK ToK — Kesha": {
+  "id": 1714497432,
+  "released": "2009",
+  "found": "Tik Tok — Kesha"
+ },
+ "Bad Romance — Lady Gaga": {
+  "id": 1714539746,
+  "released": "2009",
+  "found": "Bad Romance — Lady Gaga"
+ },
+ "Empire State of Mind — Jay-Z feat. Alicia Keys": {
+  "id": 1440777015,
+  "released": "2009",
+  "found": "Empire State Of Mind (feat. Alicia Keys) — JAŸ-Z"
+ },
+ "Right Round — Flo Rida": {
+  "id": 308842100,
+  "released": "2009",
+  "found": "Right Round (feat. Ke$ha) — Flo Rida"
+ },
+ "California Gurls — Katy Perry feat. Snoop Dogg": {
+  "id": 1013032940,
+  "released": "2010",
+  "found": "California Gurls (feat. Snoop Dogg) — Katy Perry"
+ },
+ "Teenage Dream — Katy Perry": {
+  "id": 716192601,
+  "released": "2010",
+  "found": "Teenage Dream — Katy Perry"
+ },
+ "Love the Way You Lie — Eminem feat. Rihanna": {
+  "id": 1637717485,
+  "released": "2010",
+  "found": "Love The Way You Lie (feat. Rihanna) — Eminem"
+ },
+ "Only Girl (In the World) — Rihanna": {
+  "id": 1440896009,
+  "released": "2010",
+  "found": "Only Girl (In The World) — Rihanna"
+ },
+ "Just the Way You Are — Bruno Mars": {
+  "id": 576670459,
+  "released": "2010",
+  "found": "Just the Way You Are — Bruno Mars"
+ },
+ "OMG — Usher feat. will.i.am": {
+  "id": 923691591,
+  "released": "2010",
+  "found": "Omg (feat. will.i.am) — USHER"
+ },
+ "Dynamite — Taio Cruz": {
+  "id": 1443147095,
+  "released": "2009",
+  "found": "Dynamite — Taio Cruz"
+ },
+ "Like a G6 — Far East Movement": {
+  "id": 1442933060,
+  "released": "2010",
+  "found": "Like a G6 — Far East Movement, The Cataracs & DEV"
+ },
+ "Waka Waka (This Time for Africa) — Shakira": {
+  "id": null
+ },
+ "Someone Like You — Adele": {
+  "id": 1544491998,
+  "released": "2011",
+  "found": "Someone Like You — Adele"
+ },
+ "Party Rock Anthem — LMFAO": {
+  "id": 1443124961,
+  "released": "2011",
+  "found": "Party Rock Anthem (feat. Lauren Bennett & GoonRock) — LMFAO"
+ },
+ "Born This Way — Lady Gaga": {
+  "id": 1440857424,
+  "released": "2011",
+  "found": "Born This Way — Lady Gaga"
+ },
+ "We Found Love — Rihanna feat. Calvin Harris": {
+  "id": 1443062143,
+  "released": "2011",
+  "found": "We Found Love (feat. Calvin Harris) — Rihanna"
+ },
+ "Moves Like Jagger — Maroon 5 feat. Christina Aguilera": {
+  "id": 1440859510,
+  "released": "2010",
+  "found": "Moves Like Jagger (feat. Christina Aguilera) — Maroon 5"
+ },
+ "Give Me Everything — Pitbull feat. Ne-Yo, Afrojack & Nayer": {
+  "id": 443232565,
+  "released": "2011",
+  "found": "Give Me Everything (feat. Ne-Yo, Afrojack & Nayer) — Pitbull"
+ },
+ "Somebody That I Used to Know — Gotye feat. Kimbra": {
+  "id": 1440754487,
+  "released": "2011",
+  "found": "Somebody That I Used to Know (feat. Kimbra) — Gotye"
+ },
+ "Price Tag — Jessie J": {
+  "id": 1440808354,
+  "released": "2011",
+  "found": "Price Tag (feat. B.o.B) — Jessie J"
+ },
+ "Gangnam Style — PSY": {
+  "id": 1445144527,
+  "released": "2012",
+  "found": "Gangnam Style — PSY"
+ },
+ "One More Night — Maroon 5": {
+  "id": 1440808310,
+  "released": "2012",
+  "found": "One More Night — Maroon 5"
+ },
+ "We Are Never Ever Getting Back Together — Taylor Swift": {
+  "id": 1440935564,
+  "released": "2012",
+  "found": "We Are Never Ever Getting Back Together — Taylor Swift"
+ },
+ "Diamonds — Rihanna": {
+  "id": 1444321282,
+  "released": "2012",
+  "found": "Diamonds — Rihanna"
+ },
+ "Whistle — Flo Rida": {
+  "id": 613867346,
+  "released": "2012",
+  "found": "Whistle — Flo Rida"
+ },
+ "Thrift Shop — Macklemore & Ryan Lewis": {
+  "id": 560097550,
+  "released": "2012",
+  "found": "Thrift Shop (feat. Wanz) — Macklemore & Ryan Lewis"
+ },
+ "Locked Out of Heaven — Bruno Mars": {
+  "id": 573962551,
+  "released": "2012",
+  "found": "Locked Out of Heaven — Bruno Mars"
+ },
+ "Skyfall — Adele": {
+  "id": 566322365,
+  "released": "2012",
+  "found": "Skyfall — Adele"
+ },
+ "Starships — Nicki Minaj": {
+  "id": 1442868833,
+  "released": "2012",
+  "found": "Starships — Nicki Minaj"
+ },
+ "Happy — Pharrell Williams": {
+  "id": 1027167644,
+  "released": "2013",
+  "found": "Happy (From \"Despicable Me 2\") — Pharrell Williams"
+ },
+ "Blurred Lines — Robin Thicke feat. T.I. & Pharrell": {
+  "id": 1442971656,
+  "released": "2013",
+  "found": "Blurred Lines (feat. T.I. & Pharrell) — Robin Thicke"
+ },
+ "Get Lucky — Daft Punk feat. Pharrell Williams": {
+  "id": 617154366,
+  "released": "2013",
+  "found": "Get Lucky — Daft Punk, Pharrell Williams & Nile Rodgers"
+ },
+ "Royals — Lorde": {
+  "id": 1594982922,
+  "released": "2013",
+  "found": "Royals — Lorde"
+ },
+ "Roar — Katy Perry": {
+  "id": 1440818897,
+  "released": "2013",
+  "found": "Roar — Katy Perry"
+ },
+ "Wrecking Ball — Miley Cyrus": {
+  "id": 1460315319,
+  "released": "2013",
+  "found": "Wrecking Ball — Miley Cyrus"
+ },
+ "Wake Me Up — Avicii": {
+  "id": 1440872929,
+  "released": "2013",
+  "found": "Wake Me Up — Avicii"
+ },
+ "The Monster — Eminem feat. Rihanna": {
+  "id": 1440858784,
+  "released": "2013",
+  "found": "The Monster (feat. Rihanna) — Eminem"
+ },
+ "Let It Go — Idina Menzel": {
+  "id": 1440618281,
+  "released": "2013",
+  "found": "Let It Go — Idina Menzel"
+ },
+ "Fancy — Iggy Azalea feat. Charli XCX": {
+  "id": 1443724795,
+  "released": "2014",
+  "found": "Fancy (feat. Charli XCX) — Iggy Azalea"
+ },
+ "All About That Bass — Meghan Trainor": {
+  "id": 1443181230,
+  "released": "2014",
+  "found": "All About That Bass — Meghan Trainor"
+ },
+ "Shake It Off — Taylor Swift": {
+  "id": 1440933651,
+  "released": "2014",
+  "found": "Shake It Off — Taylor Swift"
+ },
+ "Blank Space — Taylor Swift": {
+  "id": 1440933517,
+  "released": "2014",
+  "found": "Blank Space — Taylor Swift"
+ },
+ "Stay with Me — Sam Smith": {
+  "id": 1440814425,
+  "released": "2014",
+  "found": "Stay With Me — Sam Smith"
+ },
+ "Uptown Funk — Mark Ronson feat. Bruno Mars": {
+  "id": 984607460,
+  "released": "2014",
+  "found": "Uptown Funk (feat. Bruno Mars) — Mark Ronson"
+ },
+ "Problem — Ariana Grande feat. Iggy Azalea": {
+  "id": 1762836495,
+  "released": "2014",
+  "found": "Problem (feat. Iggy Azalea) — Ariana Grande"
+ },
+ "Rather Be — Clean Bandit feat. Jess Glynne": {
+  "id": 1027563268,
+  "released": "2014",
+  "found": "Rather Be (feat. Jess Glynne) — Clean Bandit"
+ },
+ "See You Again — Wiz Khalifa feat. Charlie Puth": {
+  "id": 966411602,
+  "released": "2015",
+  "found": "See You Again (feat. Charlie Puth) — Wiz Khalifa"
+ },
+ "Can't Feel My Face — The Weeknd": {
+  "id": 1440858500,
+  "released": "2015",
+  "found": "Can't Feel My Face — The Weeknd"
+ },
+ "Hello — Adele": {
+  "id": 1544494392,
+  "released": "2015",
+  "found": "Hello — Adele"
+ },
+ "What Do You Mean? — Justin Bieber": {
+  "id": 1440829606,
+  "released": "2015",
+  "found": "What Do You Mean? — Justin Bieber"
+ },
+ "Sorry — Justin Bieber": {
+  "id": 1440829610,
+  "released": "2015",
+  "found": "Sorry — Justin Bieber"
+ },
+ "Watch Me (Whip / Nae Nae) — Silentó": {
+  "id": 1445036897,
+  "released": "2015",
+  "found": "Watch Me (Whip / Nae Nae) — Silentó"
+ },
+ "Hotline Bling — Drake": {
+  "id": 1440841730,
+  "released": "2015",
+  "found": "Hotline Bling — Drake"
+ },
+ "Lean On — Major Lazer & DJ Snake feat. MØ": {
+  "id": 1852885328,
+  "released": "2015",
+  "found": "Lean On (feat. MØ) — Major Lazer & DJ Snake"
+ },
+ "One Dance — Drake feat. Wizkid & Kyla": {
+  "id": 1440841384,
+  "released": "2016",
+  "found": "One Dance (feat. Wizkid & Kyla) — Drake"
+ },
+ "Can't Stop the Feeling! — Justin Timberlake": {
+  "id": 1154239184,
+  "released": "2016",
+  "found": "CAN'T STOP THE FEELING! — Justin Timberlake"
+ },
+ "Closer — The Chainsmokers feat. Halsey": {
+  "id": 1170699703,
+  "released": "2016",
+  "found": "Closer (feat. Halsey) — The Chainsmokers"
+ },
+ "Work — Rihanna feat. Drake": {
+  "id": 1443231169,
+  "released": "2016",
+  "found": "Work (feat. Drake) — Rihanna"
+ },
+ "Cheap Thrills — Sia feat. Sean Paul": {
+  "id": 1055074640,
+  "released": "2015",
+  "found": "Cheap Thrills — Sia"
+ },
+ "Heathens — Twenty One Pilots": {
+  "id": 1125270207,
+  "released": "2016",
+  "found": "Heathens — twenty one pilots"
+ },
+ "Starboy — The Weeknd feat. Daft Punk": {
+  "id": 1550878097,
+  "released": "2016",
+  "found": "Starboy (feat. Daft Punk) — The Weeknd"
+ },
+ "24K Magic — Bruno Mars": {
+  "id": 1161504024,
+  "released": "2016",
+  "found": "24K Magic — Bruno Mars"
+ },
+ "Shape of You — Ed Sheeran": {
+  "id": 1193701392,
+  "released": "2017",
+  "found": "Shape of You — Ed Sheeran"
+ },
+ "Despacito — Luis Fonsi & Daddy Yankee": {
+  "id": 1447401620,
+  "released": "2017",
+  "found": "Despacito — Luis Fonsi & Daddy Yankee"
+ },
+ "That's What I Like — Bruno Mars": {
+  "id": 1161504043,
+  "released": "2016",
+  "found": "That's What I Like — Bruno Mars"
+ },
+ "HUMBLE. — Kendrick Lamar": {
+  "id": 1440882165,
+  "released": "2017",
+  "found": "HUMBLE. — Kendrick Lamar"
+ },
+ "Look What You Made Me Do — Taylor Swift": {
+  "id": 1440934255,
+  "released": "2017",
+  "found": "Look What You Made Me Do — Taylor Swift"
+ },
+ "Bodak Yellow — Cardi B": {
+  "id": 1368105797,
+  "released": "2017",
+  "found": "Bodak Yellow — Cardi B"
+ },
+ "Perfect — Ed Sheeran": {
+  "id": 1193701400,
+  "released": "2017",
+  "found": "Perfect — Ed Sheeran"
+ },
+ "Believer — Imagine Dragons": {
+  "id": 1411628233,
+  "released": "2017",
+  "found": "Believer — Imagine Dragons"
+ },
+ "Feel It Still — Portugal. The Man": {
+  "id": 1229315050,
+  "released": "2017",
+  "found": "Feel It Still — Portugal. The Man"
+ },
+ "Havana — Camila Cabello feat. Young Thug": {
+  "id": 1321217032,
+  "released": "2017",
+  "found": "Havana (feat. Young Thug) — Camila Cabello"
+ },
+ "New Rules — Dua Lipa": {
+  "id": 1804919325,
+  "released": "2017",
+  "found": "New Rules — Dua Lipa"
+ },
+ "God's Plan — Drake": {
+  "id": 1406109863,
+  "released": "2018",
+  "found": "God's Plan — Drake"
+ },
+ "In My Feelings — Drake": {
+  "id": 1406109901,
+  "released": "2018",
+  "found": "In My Feelings — Drake"
+ },
+ "This Is America — Childish Gambino": {
+  "id": 1379065464,
+  "released": "2018",
+  "found": "This Is America — Childish Gambino"
+ },
+ "I Like It — Cardi B, Bad Bunny & J Balvin": {
+  "id": 1368105802,
+  "released": "2018",
+  "found": "I Like It — Cardi B, Bad Bunny & J Balvin"
+ },
+ "thank u, next — Ariana Grande": {
+  "id": 1450334169,
+  "released": "2018",
+  "found": "thank u, next — Ariana Grande"
+ },
+ "Shallow — Lady Gaga & Bradley Cooper": {
+  "id": 1434371887,
+  "released": "2018",
+  "found": "Shallow — Lady Gaga & Bradley Cooper"
+ },
+ "SICKO MODE — Travis Scott": {
+  "id": 1421658123,
+  "released": "2018",
+  "found": "SICKO MODE — Travis Scott"
+ },
+ "Happier — Marshmello & Bastille": {
+  "id": 1706010428,
+  "released": "2018",
+  "found": "Happier — Marshmello & Bastille"
+ },
+ "Old Town Road (Remix) — Lil Nas X feat. Billy Ray Cyrus": {
+  "id": 1468166468,
+  "released": "2018",
+  "found": "Old Town Road — Lil Nas X"
+ },
+ "bad guy — Billie Eilish": {
+  "id": 1450695739,
+  "released": "2019",
+  "found": "bad guy — Billie Eilish"
+ },
+ "7 rings — Ariana Grande": {
+  "id": 1450334168,
+  "released": "2019",
+  "found": "7 rings — Ariana Grande"
+ },
+ "Sucker — Jonas Brothers": {
+  "id": 1461478389,
+  "released": "2019",
+  "found": "Sucker — Jonas Brothers"
+ },
+ "Señorita — Shawn Mendes & Camila Cabello": {
+  "id": 1487577500,
+  "released": "2019",
+  "found": "Señorita — Shawn Mendes & Camila Cabello"
+ },
+ "Blinding Lights — The Weeknd": {
+  "id": 1499378607,
+  "released": "2019",
+  "found": "Blinding Lights — The Weeknd"
+ },
+ "Dance Monkey — Tones and I": {
+  "id": 1575203930,
+  "released": "2019",
+  "found": "Dance Monkey — Tones And I"
+ },
+ "Lose You to Love Me — Selena Gomez": {
+  "id": 1488413376,
+  "released": "2019",
+  "found": "Lose You to Love Me — Selena Gomez"
+ },
+ "Dynamite — BTS": {
+  "id": 1596532400,
+  "released": "2020",
+  "found": "Dynamite — BTS"
+ },
+ "Mood — 24kGoldn feat. iann dior": {
+  "id": 1559066401,
+  "released": "2020",
+  "found": "Mood (feat. iann dior) — 24kGoldn"
+ },
+ "positions — Ariana Grande": {
+  "id": 1553953912,
+  "released": "2020",
+  "found": "positions — Ariana Grande"
+ },
+ "Levitating — Dua Lipa": {
+  "id": 1551179407,
+  "released": "2020",
+  "found": "Levitating — Dua Lipa"
+ },
+ "Savage Love (Laxed - Siren Beat) — Jawsh 685 & Jason Derulo": {
+  "id": 1517698089,
+  "released": "2020",
+  "found": "Savage Love (Laxed - Siren Beat) — Jawsh 685 x Jason Derulo"
+ },
+ "ROCKSTAR — DaBaby feat. Roddy Ricch": {
+  "id": 1527828411,
+  "released": "2020",
+  "found": "ROCKSTAR (feat. Roddy Ricch) — DaBaby"
+ },
+ "drivers license — Olivia Rodrigo": {
+  "id": 1560735480,
+  "released": "2021",
+  "found": "drivers license — Olivia Rodrigo"
+ },
+ "good 4 u — Olivia Rodrigo": {
+  "id": 1582277652,
+  "released": "2021",
+  "found": "good 4 u — Olivia Rodrigo"
+ },
+ "MONTERO (Call Me By Your Name) — Lil Nas X": {
+  "id": 1559318719,
+  "released": "2021",
+  "found": "MONTERO (Call Me By Your Name) — Lil Nas X"
+ },
+ "Butter — BTS": {
+  "id": 1627575769,
+  "released": "2021",
+  "found": "Butter — BTS"
+ },
+ "STAY — The Kid LAROI & Justin Bieber": {
+  "id": 1574968888,
+  "released": "2021",
+  "found": "STAY — The Kid LAROI & Justin Bieber"
+ },
+ "Easy On Me — Adele": {
+  "id": 1590036021,
+  "released": "2021",
+  "found": "Easy On Me — Adele"
+ },
+ "Kiss Me More — Doja Cat feat. SZA": {
+  "id": 1577637152,
+  "released": "2021",
+  "found": "Kiss Me More (feat. SZA) — Doja Cat"
+ },
+ "Leave the Door Open — Silk Sonic": {
+  "id": 1612867242,
+  "released": "2021",
+  "found": "Leave The Door Open — Silk Sonic, Bruno Mars & Anderson .Paak"
+ },
+ "Bad Habits — Ed Sheeran": {
+  "id": 1581087532,
+  "released": "2021",
+  "found": "Bad Habits — Ed Sheeran"
+ },
+ "Cold Heart (PNAU Remix) — Elton John & Dua Lipa": {
+  "id": 1578986673,
+  "released": "2021",
+  "found": "Cold Heart (PNAU Remix) — Elton John & Dua Lipa"
+ },
+ "As It Was — Harry Styles": {
+  "id": 1615585008,
+  "released": "2022",
+  "found": "As It Was — Harry Styles"
+ },
+ "About Damn Time — Lizzo": {
+  "id": 1634655870,
+  "released": "2022",
+  "found": "About Damn Time — Lizzo"
+ },
+ "Bad Habit — Steve Lacy": {
+  "id": 6788150545,
+  "released": "2022",
+  "found": "Bad Habit — Steve Lacy"
+ },
+ "Anti-Hero — Taylor Swift": {
+  "id": 1653490676,
+  "released": "2022",
+  "found": "Anti-Hero — Taylor Swift"
+ },
+ "Unholy — Sam Smith & Kim Petras": {
+  "id": 1649325659,
+  "released": "2022",
+  "found": "Unholy — Sam Smith & Kim Petras"
+ },
+ "BREAK MY SOUL — Beyoncé": {
+  "id": 1630005854,
+  "released": "2022",
+  "found": "BREAK MY SOUL — Beyoncé"
+ },
+ "First Class — Jack Harlow": {
+  "id": 1622624618,
+  "released": "2022",
+  "found": "First Class — Jack Harlow"
+ },
+ "Me Porto Bonito — Bad Bunny & Chencho Corleone": {
+  "id": null
+ },
+ "Flowers — Miley Cyrus": {
+  "id": 1702906535,
+  "released": "2023",
+  "found": "Flowers — Miley Cyrus"
+ },
+ "Last Night — Morgan Wallen": {
+  "id": 1818408858,
+  "released": "2023",
+  "found": "Last Night — Morgan Wallen"
+ },
+ "vampire — Olivia Rodrigo": {
+  "id": 1694768031,
+  "released": "2023",
+  "found": "vampire — Olivia Rodrigo"
+ },
+ "Paint The Town Red — Doja Cat": {
+  "id": 1699832214,
+  "released": "2023",
+  "found": "Paint The Town Red — Doja Cat"
+ },
+ "greedy — Tate McRae": {
+  "id": 1719661252,
+  "released": "2023",
+  "found": "greedy — Tate McRae"
+ },
+ "What Was I Made For? — Billie Eilish": {
+  "id": 1689239800,
+  "released": "2023",
+  "found": "What Was I Made For? — Billie Eilish"
+ },
+ "Dance The Night — Dua Lipa": {
+  "id": 1689238922,
+  "released": "2023",
+  "found": "Dance The Night — Dua Lipa"
+ },
+ "Seven — Jung Kook feat. Latto": {
+  "id": 1703097180,
+  "released": "2023",
+  "found": "Seven — Jung Kook & Latto"
+ },
+ "Beautiful Things — Benson Boone": {
+  "id": 1724488124,
+  "released": "2024",
+  "found": "Beautiful Things — Benson Boone"
+ },
+ "TEXAS HOLD 'EM — Beyoncé": {
+  "id": 1738370967,
+  "released": "2024",
+  "found": "TEXAS HOLD 'EM — Beyoncé"
+ },
+ "Not Like Us — Kendrick Lamar": {
+  "id": 1781353929,
+  "released": "2024",
+  "found": "Not Like Us — Kendrick Lamar"
+ },
+ "Espresso — Sabrina Carpenter": {
+  "id": 1752214923,
+  "released": "2024",
+  "found": "Espresso — Sabrina Carpenter"
+ },
+ "Please Please Please — Sabrina Carpenter": {
+  "id": 1752214912,
+  "released": "2024",
+  "found": "Please Please Please — Sabrina Carpenter"
+ },
+ "A Bar Song (Tipsy) — Shaboozey": {
+  "id": 1749591722,
+  "released": "2024",
+  "found": "A Bar Song (Tipsy) — Shaboozey"
+ },
+ "Good Luck, Babe! — Chappell Roan": {
+  "id": 1737497080,
+  "released": "2024",
+  "found": "Good Luck, Babe! — Chappell Roan"
+ },
+ "BIRDS OF A FEATHER — Billie Eilish": {
+  "id": 1739659142,
+  "released": "2024",
+  "found": "BIRDS OF A FEATHER — Billie Eilish"
+ },
+ "Die With A Smile — Lady Gaga & Bruno Mars": {
+  "id": 1762656732,
+  "released": "2024",
+  "found": "Die With A Smile — Lady Gaga & Bruno Mars"
+ },
+ "APT. — ROSÉ & Bruno Mars": {
+  "id": 1771105935,
+  "released": "2024",
+  "found": "APT. — ROSÉ & Bruno Mars"
+ },
+ "Too Sweet — Hozier": {
+  "id": 1763072931,
+  "released": "2024",
+  "found": "Too Sweet — Hozier"
+ },
+ "Ordinary — Alex Warren": {
+  "id": 1804419953,
+  "released": "2024",
+  "found": "Ordinary — Alex Warren"
+ },
+ "Abracadabra — Lady Gaga": {
+  "id": 1792667005,
+  "released": "2025",
+  "found": "Abracadabra — Lady Gaga"
+ },
+ "Manchild — Sabrina Carpenter": {
+  "id": 1819377511,
+  "released": "2025",
+  "found": "Manchild — Sabrina Carpenter"
+ },
+ "Golden — HUNTR/X": {
+  "id": 1837843445,
+  "released": "2025",
+  "found": "Golden — HUNTR/X, EJAE, AUDREY NUNA, REI AMI & KPop Demon Hunters Cast"
+ },
+ "The Fate of Ophelia — Taylor Swift": {
+  "id": 6814997402,
+  "released": "2025",
+  "found": "The Fate of Ophelia — Taylor Swift"
+ },
+ "We Are the World — U.S.A. for Africa": {
+  "id": 41737859,
+  "released": "1985",
+  "found": "We Are the World — U.S.A. for Africa"
+ },
+ "Killing Me Softly with His Song — Fugees": {
+  "id": 1054461710,
+  "released": "1996",
+  "found": "Killing Me Softly with His Song — Fugees"
+ },
+ "Goodnight Irene — The Weavers": {
+  "id": 1844489808,
+  "released": "1955",
+  "found": "Goodnight Irene — The Weavers & Gordon Jenkins and His Orchestra"
+ },
+ "Mona Lisa — Nat King Cole": {
+  "id": 723941691,
+  "released": "1950",
+  "found": "Mona Lisa — Nat \"King\" Cole"
+ },
+ "Tennessee Waltz — Patti Page": {
+  "id": 1877216984,
+  "released": "1951",
+  "found": "Tennessee Waltz — Patti Page"
+ },
+ "How High the Moon — Les Paul & Mary Ford": {
+  "id": 1443116644,
+  "released": "1953",
+  "found": "How High the Moon — Les Paul & Mary Ford"
+ },
+ "Too Young — Nat King Cole": {
+  "id": 724837528,
+  "released": "1951",
+  "found": "Too Young — Nat \"King\" Cole"
+ },
+ "Cry — Johnnie Ray": {
+  "id": 1308706306,
+  "released": "1951",
+  "found": "Cry — Johnnie Ray & The Four Lads"
+ },
+ "Rocket 88 — Jackie Brenston": {
+  "id": 1530477290,
+  "released": "1989",
+  "found": "Rocket 88 — Jackie Brenston & His Delta Cats"
+ },
+ "Jambalaya (On the Bayou) — Hank Williams": {
+  "id": 264786827,
+  "released": "2007",
+  "found": "Jambalaya — Hank Williams"
+ },
+ "You Belong to Me — Jo Stafford": {
+  "id": 724553577,
+  "released": "1952",
+  "found": "You Belong To Me — Jo Stafford"
+ },
+ "Wheel of Fortune — Kay Starr": {
+  "id": 1491980304,
+  "released": "1964",
+  "found": "Wheel Of Fortune — Kay Starr"
+ },
+ "Your Cheatin' Heart — Hank Williams": {
+  "id": 1434632703,
+  "released": "1953",
+  "found": "Your Cheatin' Heart — Hank Williams"
+ },
+ "That's Amore — Dean Martin": {
+  "id": 1440804020,
+  "released": "1953",
+  "found": "That's Amore — Dean Martin"
+ },
+ "Hound Dog — Big Mama Thornton": {
+  "id": 1444120215,
+  "released": "1953",
+  "found": "Hound Dog — Big Mama Thornton"
+ },
+ "Vaya Con Dios — Les Paul & Mary Ford": {
+  "id": 1443232802,
+  "released": "1953",
+  "found": "Vaya Con Dios — Les Paul & Mary Ford"
+ },
+ "Sh-Boom — The Chords": {
+  "id": 4512072,
+  "released": "1954",
+  "found": "Sh-Boom — The Chords"
+ },
+ "Shake, Rattle and Roll — Big Joe Turner": {
+  "id": 266610584,
+  "released": "1954",
+  "found": "Shake, Rattle and Roll — Big Joe Turner"
+ },
+ "Mr. Sandman — The Chordettes": {
+  "id": 1713984386,
+  "released": "1954",
+  "found": "Mr. Sandman — The Chordettes"
+ },
+ "That's All Right — Elvis Presley": {
+  "id": 217633804,
+  "released": "1954",
+  "found": "That's All Right — Elvis Presley"
+ },
+ "Three Coins in the Fountain — The Four Aces": {
+  "id": 354895895,
+  "released": "2007",
+  "found": "Three Coins In The Fountain — The Four Aces"
+ },
+ "Big Girls Don't Cry (Personal) — Fergie": {
+  "id": 1452677869,
+  "released": "2006",
+  "found": "Big Girls Don't Cry (Personal) — Fergie"
+ },
+ "DtMF — Bad Bunny": {
+  "id": null
+ },
+ "Opalite — Taylor Swift": {
+  "id": 6814997409,
+  "released": "2025",
+  "found": "Opalite — Taylor Swift"
+ },
+ "I Just Might — Bruno Mars": {
+  "id": 1866732800,
+  "released": "2026",
+  "found": "I Just Might — Bruno Mars"
+ },
+ "Aperture — Harry Styles": {
+  "id": 1870984033,
+  "released": "2026",
+  "found": "Aperture — Harry Styles"
+ },
+ "Choosin' Texas — Ella Langley": {
+  "id": 1844932150,
+  "released": "2025",
+  "found": "Choosin' Texas — Ella Langley"
+ },
+ "Swim — BTS": {
+  "id": 1868482073,
+  "released": "2026",
+  "found": "SWIM — BTS"
+ },
+ "Drop Dead — Olivia Rodrigo": {
+  "id": 1889992113,
+  "released": "2026",
+  "found": "drop dead — Olivia Rodrigo"
+ },
+ "Janice STFU — Drake": {
+  "id": 6769649576,
+  "released": "2026",
+  "found": "Janice STFU — Drake"
+ },
+ "Hate That I Made You Love Me — Ariana Grande": {
+  "id": 6763656725,
+  "released": "2026",
+  "found": "hate that i made you love me — Ariana Grande"
+ },
+ "I Knew It, I Knew You — Taylor Swift": {
+  "id": 6780674001,
+  "released": "2026",
+  "found": "I Knew It, I Knew You — Taylor Swift"
+ },
+ "Patient Zero — Taylor Swift": {
+  "id": 6814997425,
+  "released": "2026",
+  "found": "Patient Zero — Taylor Swift"
+ },
+ "Mambo No. 5 (A Little Bit of...) — Lou Bega": {
+  "id": 1322068804,
+  "released": "1999",
+  "found": "Mambo No. 5 (a Little Bit of...) — Lou Bega"
+ }
+}

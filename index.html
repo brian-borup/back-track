@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Back Track</title>
+  <meta name="description" content="Hear a chart topper, guess the year. A party music game.">
+  <meta name="theme-color" content="#1a1033">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Back Track">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Setup -->
+  <section id="setupScreen" class="screen">
+    <header class="hero">
+      <div class="logo" aria-hidden="true"><span class="disc"></span></div>
+      <h1>Back Track</h1>
+      <p class="tagline">Hear a hit. Guess the year.</p>
+    </header>
+
+    <main>
+      <button id="resumeBtn" class="primary wide" hidden>Resume game</button>
+
+      <div class="card">
+        <h2>Players</h2>
+        <ul id="playerList" class="player-list"></ul>
+        <form id="addPlayerForm" class="add-row">
+          <input id="newPlayer" type="text" maxlength="20" placeholder="Add a player" aria-label="Player name" autocomplete="off" enterkeyhint="done">
+          <button class="secondary" type="submit">Add</button>
+        </form>
+      </div>
+
+      <div class="card">
+        <h2>Game</h2>
+        <div class="segmented wide" role="group" aria-label="Game type">
+          <button type="button" data-mode="timeline">Timeline</button>
+          <button type="button" data-mode="year">Guess the year</button>
+        </div>
+        <p id="modeHelp" class="help"></p>
+        <div class="field">
+          <span id="lengthLabel" class="field-label">Cards to win</span>
+          <div class="segmented" role="group" id="lengthGroup"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Years</h2>
+        <div class="era">
+          <label>From <select id="fromYear" aria-label="Earliest decade"></select></label>
+          <label>To <select id="toYear" aria-label="Latest decade"></select></label>
+        </div>
+        <p id="songCount" class="help"></p>
+      </div>
+
+      <button id="startBtn" class="primary wide big">Start game</button>
+      <button id="howBtn" class="ghost wide">How to play</button>
+    </main>
+  </section>
+
+  <!-- A turn -->
+  <section id="playScreen" class="screen" hidden>
+    <header class="topbar">
+      <button id="quitBtn" class="ghost" aria-label="End game">✕</button>
+      <p id="roundLabel" class="round-label"></p>
+      <span class="topbar-spacer"></span>
+    </header>
+
+    <main>
+      <ul id="scoreboard" class="scoreboard"></ul>
+      <p id="turnLabel" class="turn-label"></p>
+
+      <!-- The song: hidden while guessing, revealed afterwards -->
+      <div id="songCard" class="song-card">
+        <div class="record" id="record">
+          <img id="art" alt="" hidden>
+          <span class="label-hole"></span>
+        </div>
+        <div class="song-info">
+          <p id="songYear" class="song-year">?</p>
+          <p id="songTitle" class="song-title">Mystery song</p>
+          <p id="songArtist" class="song-artist"></p>
+        </div>
+      </div>
+
+      <div id="player" class="player">
+        <button id="playBtn" class="play-btn" aria-label="Play">
+          <span class="icon-play"></span>
+        </button>
+        <div class="progress"><span id="progressBar"></span></div>
+        <p id="playerNote" class="help center"></p>
+      </div>
+
+      <!-- Timeline game: choose where the song fits -->
+      <div id="timelinePanel" hidden>
+        <p class="panel-title" id="timelineTitle"></p>
+        <ol id="timeline" class="timeline"></ol>
+      </div>
+
+      <!-- Guess-the-year game: everyone writes a year -->
+      <div id="guessPanel" hidden>
+        <ul id="guessList" class="guess-list"></ul>
+      </div>
+
+      <p id="resultLabel" class="result" hidden></p>
+
+      <div class="actions">
+        <button id="lockBtn" class="primary wide big" disabled>Lock it in</button>
+        <button id="nextBtn" class="primary wide big" hidden>Next turn</button>
+      </div>
+    </main>
+  </section>
+
+  <!-- Winner -->
+  <section id="winScreen" class="screen" hidden>
+    <main class="win">
+      <p class="trophy" aria-hidden="true">🏆</p>
+      <h1 id="winnerName"></h1>
+      <p id="winnerNote" class="tagline"></p>
+      <ol id="standings" class="standings"></ol>
+      <button id="againBtn" class="primary wide big">Play again</button>
+      <button id="newGameBtn" class="ghost wide">Change players or settings</button>
+    </main>
+  </section>
+
+  <!-- How to play -->
+  <dialog id="howDialog" class="sheet">
+    <form method="dialog">
+      <p class="sheet-title">How to play</p>
+      <div class="sheet-body">
+        <p><strong>Timeline.</strong> Everyone starts with one song card showing its year. On your turn a mystery song plays. Tap where it fits in your timeline: before, between or after your cards. Get it right and you keep the card. The first to collect the target number of cards wins.</p>
+        <p><strong>Guess the year.</strong> A song plays and everyone guesses the year it came out. Exact year scores 3 points, within 2 years scores 2, within 5 years scores 1. Most points after the last round wins.</p>
+        <p><strong>Music.</strong> Each song plays as a 30-second clip with the title hidden until the guesses are in. No account needed, just an internet connection.</p>
+      </div>
+      <button value="ok" class="primary wide">Got it</button>
+    </form>
+  </dialog>
+
+  <!-- Are-you-sure prompt -->
+  <dialog id="confirmDialog" class="sheet">
+    <form method="dialog">
+      <p class="sheet-title">End this game?</p>
+      <p class="sheet-message">Scores and timelines will be lost.</p>
+      <div class="sheet-row">
+        <button value="cancel" class="secondary">Keep playing</button>
+        <button value="ok" class="danger">End game</button>
+      </div>
+    </form>
+  </dialog>
+
+  <audio id="audio" preload="auto"></audio>
+  <script src="songs.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
