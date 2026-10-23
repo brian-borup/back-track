@@ -1,5 +1,5 @@
 // Bump this version whenever app files change so phones pick up the update.
-const CACHE = 'back-track-v1';
+const CACHE = 'back-track-v2';
 const FILES = [
   './',
   'index.html',
