@@ -72,7 +72,7 @@ const MODE_HELP = {
 // ---- State ----
 // settings: { players: [name], mode: 'timeline' | 'year', length: { timeline, year }, from, to }
 // game (while playing): {
-//   mode, target, players: [{ name, cards: [songIndex], score }],
+//   mode, target, players: [{ name, cards: [songIndex], score, missed }],
 //   deck: [songIndex], turn, round, current: songIndex,
 //   phase: 'guess' | 'reveal', slot, guesses: [year], result, over }
 
@@ -114,6 +114,8 @@ function songsInRange() {
 // lookup API, fetched once and remembered for the session.
 
 const media = new Map();
+// The same results once they've arrived, so a tap can use them without waiting.
+const ready = new Map();
 
 function getMedia(i) {
   if (!media.has(i)) {
@@ -121,10 +123,12 @@ function getMedia(i) {
       .then((res) => (res.ok ? res.json() : Promise.reject(new Error(`HTTP ${res.status}`))))
       .then((data) => {
         const hit = data.results.find((r) => r.kind === 'song') || {};
-        return {
+        const m = {
           preview: hit.previewUrl || '',
           art: hit.artworkUrl100 ? hit.artworkUrl100.replace('100x100', '300x300') : '',
         };
+        ready.set(i, m);
+        return m;
       });
     request.catch(() => media.delete(i)); // let a later attempt retry
     media.set(i, request);
@@ -157,8 +161,20 @@ function skipSong() {
     loadCurrentSong();
     return;
   }
+  autoplay = false;
   els.playBtn.classList.remove('loading');
   els.playerNote.textContent = 'Couldn\'t load a song. Check your connection and tap play to try again.';
+}
+
+// True from tapping Next turn until the new song starts, so it plays without
+// another tap.
+let autoplay = false;
+
+function startPlayback() {
+  els.audio.play().catch(() => {
+    els.playerNote.textContent = 'Tap play to start the music.';
+  });
+  autoplay = false;
 }
 
 // Load the current song so the play button can start it straight away (iOS
@@ -169,13 +185,27 @@ function loadCurrentSong() {
   stopAudio();
   els.playerNote.textContent = '';
 
+  const use = (m) => {
+    els.playBtn.classList.remove('loading');
+    els.audio.src = m.preview;
+    if (autoplay) startPlayback();
+    if (game.phase === 'reveal' && m.art) showArt(m.art);
+  };
+
+  // Usually the clip was fetched ahead of time: use it right away, while
+  // we're still inside the tap that got us here.
+  const known = ready.get(i);
+  if (known && known.preview) {
+    use(known);
+    if (game.deck.length) getMedia(game.deck[game.deck.length - 1]).catch(() => {});
+    return;
+  }
+
   els.playBtn.classList.add('loading');
   getMedia(i).then((m) => {
     if (state.game !== game || game.current !== i) return;
     if (!m.preview) { skipSong(); return; }
-    els.playBtn.classList.remove('loading');
-    els.audio.src = m.preview;
-    if (game.phase === 'reveal' && m.art) showArt(m.art);
+    use(m);
   }).catch(() => {
     if (state.game !== game || game.current !== i) return;
     skipSong();
@@ -332,7 +362,7 @@ function startGame() {
     mode: settings.mode,
     target: settings.length[settings.mode],
     // In the timeline game everyone starts with one card already face up.
-    players: settings.players.map((name) => ({ name, cards: settings.mode === 'timeline' ? [deck.pop()] : [], score: 0 })),
+    players: settings.players.map((name) => ({ name, cards: settings.mode === 'timeline' ? [deck.pop()] : [], score: 0, missed: 0 })),
     deck,
     turn: 0,
     round: 1,
@@ -371,6 +401,13 @@ function renderPlay() {
     pts.className = 'pts';
     pts.textContent = game.mode === 'timeline' ? `${p.cards.length}/${game.target}` : p.score;
     li.append(name, pts);
+    if (p.missed) {
+      const missed = document.createElement('span');
+      missed.className = 'missed';
+      missed.textContent = `✕${p.missed}`;
+      missed.setAttribute('aria-label', `${p.missed} missed`);
+      li.append(missed);
+    }
     return li;
   }));
 
@@ -526,13 +563,17 @@ els.lockBtn.addEventListener('click', () => {
     const good = (before === undefined || SONGS[before][0] <= s.year)
       && (after === undefined || SONGS[after][0] >= s.year);
     if (good) player.cards.push(game.current);
+    else player.missed = (player.missed || 0) + 1;
     game.result = { good, text: good ? 'Nailed it! The card is yours.' : 'Not quite. The card goes back.' };
   } else {
     // Read any year still being typed before scoring.
     const active = document.activeElement;
     if (active && active.matches('.stepper input')) active.dispatchEvent(new Event('change'));
     const scores = game.guesses.map((g) => points(g, s.year));
-    game.players.forEach((p, i) => { p.score += scores[i]; });
+    game.players.forEach((p, i) => {
+      p.score += scores[i];
+      if (!scores[i]) p.missed = (p.missed || 0) + 1;
+    });
     const exact = game.players.filter((_, i) => scores[i] === 3).map((p) => p.name);
     game.result = {
       good: scores.some((n) => n > 0),
@@ -572,6 +613,7 @@ els.nextBtn.addEventListener('click', () => {
   game.result = null;
   save();
   renderPlay();
+  autoplay = true;
   loadCurrentSong();
   window.scrollTo(0, 0);
 });
@@ -605,7 +647,13 @@ function renderWin() {
     const pts = document.createElement('span');
     pts.className = 'pts';
     pts.textContent = `${scoreOf(p)} ${unit}`;
-    li.append(name, pts);
+    const missed = document.createElement('span');
+    missed.className = 'missed';
+    missed.textContent = `${p.missed || 0} missed`;
+    const right = document.createElement('span');
+    right.className = 'standing-scores';
+    right.append(pts, missed);
+    li.append(name, right);
     return li;
   }));
   show(els.winScreen);
