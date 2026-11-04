@@ -24,6 +24,11 @@ const baseTitle = (t) => (norm(unbracket(t)) || norm(t)).replace(/^the /, '');
 const fullTitle = (t) => norm(t).replace(/^the /, '');
 const artistName = (a) => norm(a).replace(/^the /, '');
 const mainArtist = (a) => artistName(a.split(/ feat\. | & |, | and /i)[0]);
+const artistNames = (a) => a.split(/ feat\.? | featuring | & |, | and | x | \/ | with /i).map(artistName).filter(Boolean);
+// One-word names must match exactly ("LISA" is not "Lisa Poelma"); longer
+// names may be shortened ("Lipps Inc." / "Lipps, Inc.").
+const sameArtist = (apple, ours) => apple === ours
+  || (ours.includes(' ') && (apple.startsWith(`${ours} `) || ours.startsWith(`${apple} `)));
 const junk = /karaoke|tribute|cover|instrumental|in the style of|made famous|originally performed|8-bit|lullaby|piano version|workout/i;
 
 async function search(term, extra = '&limit=50') {
@@ -46,6 +51,10 @@ function accept(trackName, appleArtist, title, artist) {
   const appleWords = ` ${artistName(appleArtist)} `;
   const ourWords = ` ${mainArtist(artist)} `;
   if (!appleWords.includes(ourWords) || appleWords.includes(`${ourWords}jr `)) return false;
+  // Apple's lead artist must be one of ours, so a duet led by someone else
+  // ("Luciano Pavarotti & Mariah Carey") isn't taken for the original.
+  const lead = artistNames(appleArtist)[0];
+  if (!artistNames(artist).some((ours) => sameArtist(lead, ours))) return false;
   if (junk.test(trackName)) return false;
   // Look at each bracketed label, and anything after " - ".
   const labels = [...trackName.matchAll(/[([]([^)\]]*)[)\]]/g)].map((m) => norm(m[1]));
@@ -101,7 +110,7 @@ function cachedIsGood(c, title, artist) {
         hit = pick(await search(baseTitle(title), '&attribute=songTerm&limit=200'), title, artist);
       }
       cache[key] = hit
-        ? { id: hit.trackId, released: hit.releaseDate.slice(0, 4), found: `${hit.trackName} — ${hit.artistName}` }
+        ? { id: hit.trackId, released: (hit.releaseDate || '').slice(0, 4), found: `${hit.trackName} — ${hit.artistName}` }
         : { id: null };
       fs.writeFileSync(cacheFile, JSON.stringify(cache, null, 1));
       console.log(`${hit ? 'ok  ' : 'MISS'} ${year} ${key}${hit ? `  →  ${cache[key].found} (${cache[key].released})` : ''}`);
@@ -110,7 +119,7 @@ function cachedIsGood(c, title, artist) {
     const c = cache[key];
     if (!c.id) missing.push(key);
     // A release date earlier than our year suggests our year is wrong.
-    else if (+c.released < year) suspicious.push(`${year} ${key}  (Apple says ${c.released}: ${c.found})`);
+    else if (c.released && +c.released < year) suspicious.push(`${year} ${key}  (Apple says ${c.released}: ${c.found})`);
   }
 
   // Songs without a clean match are left out, so the game never plays a remix.
