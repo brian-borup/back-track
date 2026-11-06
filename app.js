@@ -473,24 +473,29 @@ function renderTimeline(player, s, revealed) {
     for (const i of shown) items.push(cardItem(i, i === game.current ? (game.result.good ? 'new' : 'wrong') : ''));
   } else {
     for (let slot = 0; slot <= cards.length; slot++) {
-      const b = document.createElement('button');
-      b.type = 'button';
-      b.className = 'slot';
       const before = cards[slot - 1];
       const after = cards[slot];
-      b.textContent = cards.length === 0 ? 'Place it here'
-        : before === undefined ? `Before ${SONGS[after][0]}`
-        : after === undefined ? `After ${SONGS[before][0]}`
-        : `Between ${SONGS[before][0]} and ${SONGS[after][0]}`;
-      b.setAttribute('aria-pressed', String(game.slot === slot));
-      b.addEventListener('click', () => {
-        game.slot = slot;
-        save();
-        renderPlay();
-      });
-      const li = document.createElement('li');
-      li.append(b);
-      items.push(li);
+      // Two cards from the same year leave no gap between them: a song from
+      // that year fits just as well before or after the pair.
+      const sameYear = before !== undefined && after !== undefined && SONGS[before][0] === SONGS[after][0];
+      if (!sameYear) {
+        const b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'slot';
+        b.textContent = cards.length === 0 ? 'Place it here'
+          : before === undefined ? `Before ${SONGS[after][0]}`
+          : after === undefined ? `After ${SONGS[before][0]}`
+          : `Between ${SONGS[before][0]} and ${SONGS[after][0]}`;
+        b.setAttribute('aria-pressed', String(game.slot === slot));
+        b.addEventListener('click', () => {
+          game.slot = slot;
+          save();
+          renderPlay();
+        });
+        const li = document.createElement('li');
+        li.append(b);
+        items.push(li);
+      }
       if (after !== undefined) items.push(cardItem(after));
     }
   }
@@ -583,7 +588,12 @@ els.lockBtn.addEventListener('click', () => {
   game.phase = 'reveal';
   save();
   renderPlay();
-  getMedia(game.current).then((m) => { if (state.game === game && m.art) showArt(m.art); }).catch(() => {});
+  // Only if we're still revealing this song: the artwork can arrive after
+  // Next turn has moved on, and must not show on the new mystery song.
+  const revealed = game.current;
+  getMedia(revealed).then((m) => {
+    if (state.game === game && game.current === revealed && game.phase === 'reveal' && m.art) showArt(m.art);
+  }).catch(() => {});
 });
 
 function isGameOver() {
