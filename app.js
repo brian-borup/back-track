@@ -73,8 +73,9 @@ const MODE_HELP = {
 // settings: { players: [name], mode: 'timeline' | 'year', length: { timeline, year }, from, to }
 // game (while playing): {
 //   mode, target, players: [{ name, cards: [songIndex], score, missed }],
-//   deck: [songIndex], turn, round, current: songIndex,
-//   phase: 'guess' | 'reveal', slot, guesses: [year], result, over }
+//   deck: [songIndex], turn, round, current: songIndex, minYear, maxYear,
+//   phase: 'guess' | 'reveal', slot, guesses: [year | null], result, over,
+//   lastRound: { left: turns still to play, by: player who reached the target } }
 
 function loadState() {
   const fresh = {
@@ -134,6 +135,25 @@ function getMedia(i) {
     media.set(i, request);
   }
   return media.get(i);
+}
+
+// A tenth of a second of silence, as a WAV file.
+const SILENCE = (() => {
+  const samples = 800;
+  const view = new DataView(new ArrayBuffer(44 + samples * 2));
+  const text = (at, s) => [...s].forEach((c, i) => view.setUint8(at + i, c.charCodeAt(0)));
+  text(0, 'RIFF'); view.setUint32(4, 36 + samples * 2, true); text(8, 'WAVE');
+  text(12, 'fmt '); view.setUint32(16, 16, true); view.setUint16(20, 1, true); view.setUint16(22, 1, true);
+  view.setUint32(24, 8000, true); view.setUint32(28, 16000, true); view.setUint16(32, 2, true); view.setUint16(34, 16, true);
+  text(36, 'data'); view.setUint32(40, samples * 2, true);
+  return URL.createObjectURL(new Blob([view.buffer], { type: 'audio/wav' }));
+})();
+
+// iOS only lets audio start directly from a tap. Starting a silent clip
+// during the tap unlocks the player, so the song can start once it loads.
+function unlockAudio() {
+  els.audio.src = SILENCE;
+  els.audio.play().catch(() => {});
 }
 
 function stopAudio() {
@@ -228,6 +248,7 @@ els.playBtn.addEventListener('click', () => {
 });
 
 els.audio.addEventListener('play', () => {
+  if (els.audio.getAttribute('src') === SILENCE) return;
   // Keep the lock screen and Control Center from giving the song away.
   if ('mediaSession' in navigator && window.MediaMetadata) {
     navigator.mediaSession.metadata = new MediaMetadata({ title: 'Mystery song', artist: 'Back Track' });
@@ -240,7 +261,8 @@ els.audio.addEventListener('play', () => {
 els.audio.addEventListener('loadedmetadata', () => { skips = 0; });
 // The clip itself is broken or missing.
 els.audio.addEventListener('error', () => {
-  if (els.audio.getAttribute('src')) skipSong();
+  const src = els.audio.getAttribute('src');
+  if (src && src !== SILENCE) skipSong();
 });
 els.audio.addEventListener('pause', () => {
   els.playBtn.classList.remove('playing');
@@ -367,18 +389,21 @@ function startGame() {
     turn: 0,
     round: 1,
     current: deck.pop(),
+    minYear: settings.from,
+    maxYear: Math.min(settings.to + 9, LAST_YEAR),
     phase: 'guess',
     slot: null,
-    guesses: [],
+    guesses: settings.players.map(() => null),
     result: null,
     over: false,
   };
-  const middle = Math.round((settings.from + Math.min(settings.to + 9, LAST_YEAR)) / 2);
-  game.guesses = game.players.map(() => middle);
   state.game = game;
   save();
   show(els.playScreen);
   renderPlay();
+  // Start the first song too, the same as Next turn does.
+  unlockAudio();
+  autoplay = true;
   loadCurrentSong();
 }
 
@@ -390,7 +415,11 @@ function renderPlay() {
   const s = song(game.current);
   const revealed = game.phase === 'reveal';
 
-  els.roundLabel.textContent = game.mode === 'year' ? `Round ${game.round} of ${game.target}` : `Round ${game.round}`;
+  // The last round starts with the turn after the one that reached the target.
+  const lastRound = game.lastRound && game.players.length > 1
+    && !(game.turn === game.lastRound.by && game.lastRound.left === game.players.length - 1);
+  els.roundLabel.textContent = game.mode === 'year' ? `Round ${game.round} of ${game.target}`
+    : lastRound ? 'Last round' : `Round ${game.round}`;
 
   els.scoreboard.replaceChildren(...game.players.map((p, i) => {
     const li = document.createElement('li');
@@ -412,7 +441,7 @@ function renderPlay() {
   }));
 
   els.turnLabel.textContent = game.mode === 'timeline'
-    ? (game.players.length > 1 ? `${current.name}'s turn` : 'Your turn')
+    ? (game.players.length > 1 ? `${current.name}'s ${lastRound ? 'last turn' : 'turn'}` : 'Your turn')
     : 'Everyone guess!';
 
   els.songCard.classList.toggle('revealed', revealed);
@@ -433,7 +462,7 @@ function renderPlay() {
   }
 
   els.lockBtn.hidden = revealed;
-  els.lockBtn.disabled = game.mode === 'timeline' && game.slot === null;
+  els.lockBtn.disabled = !readyToLock(game);
   els.nextBtn.hidden = !revealed;
   els.nextBtn.textContent = isGameOver() ? 'See the winner' : 'Next turn';
 }
@@ -507,8 +536,19 @@ const points = (guess, year) => {
   return off === 0 ? 3 : off <= 2 ? 2 : off <= 5 ? 1 : 0;
 };
 
+// Timeline: a slot is chosen. Guess the year: everyone has entered a year.
+const readyToLock = (game) => (game.mode === 'timeline'
+  ? game.slot !== null
+  : game.guesses.every((g) => g !== null && g !== undefined));
+
+// Games saved before the year range was stored use the whole song list's range.
+const yearRange = (game) => [game.minYear || FIRST_DECADE, game.maxYear || LAST_YEAR];
+
 function renderGuesses(s, revealed) {
   const game = state.game;
+  const [minYear, maxYear] = yearRange(game);
+  const clamp = (year) => Math.min(maxYear, Math.max(minYear, year));
+  const middle = Math.round((minYear + maxYear) / 2);
   els.guessList.replaceChildren(...game.players.map((p, i) => {
     const li = document.createElement('li');
     const name = document.createElement('span');
@@ -534,23 +574,43 @@ function renderGuesses(s, revealed) {
     const input = document.createElement('input');
     input.type = 'number';
     input.inputMode = 'numeric';
-    input.value = game.guesses[i];
-    input.setAttribute('aria-label', `${p.name}'s guess`);
+    input.min = minYear;
+    input.max = maxYear;
+    input.placeholder = 'Year';
+    input.value = game.guesses[i] ?? '';
+    input.setAttribute('aria-label', `${p.name}'s guess, ${minYear} to ${maxYear}`);
     const plus = document.createElement('button');
     plus.type = 'button';
     plus.textContent = '+';
     plus.setAttribute('aria-label', `${p.name}: one year later`);
-    const set = (year) => {
-      game.guesses[i] = year;
-      input.value = year;
+    const update = () => {
+      const g = game.guesses[i];
+      minus.disabled = g !== null && g <= minYear;
+      plus.disabled = g !== null && g >= maxYear;
+      els.lockBtn.disabled = !readyToLock(game);
       save();
     };
-    minus.addEventListener('click', () => set(game.guesses[i] - 1));
-    plus.addEventListener('click', () => set(game.guesses[i] + 1));
+    const set = (year) => {
+      game.guesses[i] = year === null ? null : clamp(year);
+      input.value = game.guesses[i] ?? '';
+      update();
+    };
+    // From a blank guess, the buttons start in the middle of the range.
+    minus.addEventListener('click', () => set(game.guesses[i] === null ? middle : game.guesses[i] - 1));
+    plus.addEventListener('click', () => set(game.guesses[i] === null ? middle : game.guesses[i] + 1));
+    // While typing, count a full four-digit year; tidy it into range on leaving the box.
+    input.addEventListener('input', () => {
+      const year = parseInt(input.value, 10);
+      game.guesses[i] = input.value.length >= 4 && Number.isFinite(year) ? clamp(year) : null;
+      update();
+    });
     input.addEventListener('change', () => {
       const year = parseInt(input.value, 10);
-      set(Number.isFinite(year) ? year : game.guesses[i]);
+      set(Number.isFinite(year) ? year : null);
     });
+    if (game.guesses[i] === undefined) game.guesses[i] = null;
+    minus.disabled = game.guesses[i] !== null && game.guesses[i] <= minYear;
+    plus.disabled = game.guesses[i] !== null && game.guesses[i] >= maxYear;
     stepper.append(minus, input, plus);
     li.append(stepper);
     return li;
@@ -570,6 +630,12 @@ els.lockBtn.addEventListener('click', () => {
     if (good) player.cards.push(game.current);
     else player.missed = (player.missed || 0) + 1;
     game.result = { good, text: good ? 'Nailed it! The card is yours.' : 'Not quite. The card goes back.' };
+    // As in Hitster: once someone reaches the target, everyone else gets one
+    // last turn before the game ends.
+    if (good && !game.lastRound && player.cards.length >= game.target) {
+      game.lastRound = { left: game.players.length - 1, by: game.turn };
+      if (game.lastRound.left) game.result.text = `Nailed it! ${player.name} has ${player.cards.length} cards. Everyone else gets one last turn.`;
+    }
   } else {
     // Read any year still being typed before scoring.
     const active = document.activeElement;
@@ -598,7 +664,7 @@ els.lockBtn.addEventListener('click', () => {
 
 function isGameOver() {
   const game = state.game;
-  if (game.mode === 'timeline') return game.players.some((p) => p.cards.length >= game.target) || game.deck.length === 0;
+  if (game.mode === 'timeline') return (game.lastRound && game.lastRound.left === 0) || game.deck.length === 0;
   return game.round >= game.target || game.deck.length === 0;
 }
 
@@ -614,12 +680,14 @@ els.nextBtn.addEventListener('click', () => {
   if (game.mode === 'timeline') {
     game.turn = (game.turn + 1) % game.players.length;
     if (game.turn === 0) game.round++;
+    if (game.lastRound) game.lastRound.left--;
   } else {
     game.round++;
   }
   game.current = game.deck.pop();
   game.phase = 'guess';
   game.slot = null;
+  game.guesses = game.players.map(() => null);
   game.result = null;
   save();
   renderPlay();
