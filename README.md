@@ -1,6 +1,6 @@
 # Back Track
 
-A Progressive Web App party game in the spirit of Hitster: a chart topper plays and everyone guesses what year it came out.
+A Progressive Web App musical party game: a chart topper plays and everyone guesses what year it came out.
 
 **Use it:** https://brian-borup.github.io/back-track/
 
